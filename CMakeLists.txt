@@ -67,6 +67,12 @@ add_git_dependency(
         11.1.2
 )
 
+add_git_dependency(
+        spdlog
+        https://github.com/gabime/spdlog
+        v1.17.0
+)
+
 ##########################################################################################
 # Project executable setup
 ##########################################################################################
@@ -90,6 +96,7 @@ target_link_libraries(${PROJECT_NAME} PRIVATE raygui)
 target_link_libraries(${PROJECT_NAME} PRIVATE LDtkLoader::LDtkLoader)
 target_link_libraries(${PROJECT_NAME} PRIVATE box2d)
 target_link_libraries(${PROJECT_NAME} PRIVATE fmt)
+target_link_libraries(${PROJECT_NAME} PRIVATE spdlog)
 
 ##########################################################################################
 # Project build settings

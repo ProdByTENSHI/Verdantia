@@ -1,16 +1,10 @@
-#include <iostream>
-#include <raylib.h>
+#include "core/Game.hpp"
+#include <spdlog/spdlog.h>
 
 int main(int argc, char** argv) {
-    InitWindow(640, 480, "Test");
-
-    while (!WindowShouldClose()) {
-        BeginDrawing();
-
-        ClearBackground(BLUE);
-
-        EndDrawing();
-    }
+    spdlog::info("{}", argv[0]);
+    Game game;
+    game.Update();
 
     return 0;
 }

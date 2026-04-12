@@ -1,5 +1,7 @@
 #pragma once
 
+#include <cstdlib>
+
 typedef char i8;
 typedef short i16;
 typedef int i32;
@@ -11,3 +13,6 @@ typedef unsigned int u32;
 typedef unsigned long u64;
 
 typedef float f32;
+typedef double f64;
+
+typedef std::size_t size;
