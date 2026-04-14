@@ -11,11 +11,11 @@
 SpriteSheet *grasslandTexture;
 SpriteSheet *waterTexture;
 
-Island* island = nullptr;
+Island *island = nullptr;
 
 void GenerateIsland() {
     g_WorldGenerator->SetSeed(Random::GetInt(-25255, 35834));
-    island = g_WorldGenerator->GenerateIsland({32,32}, {15,15});
+    island = g_WorldGenerator->GenerateIsland({32, 32}, {15, 15});
 }
 
 Game::Game() {
@@ -24,6 +24,7 @@ Game::Game() {
     // ToggleFullscreen();
 
     g_RscManager = std::make_unique<RscManager>();
+    g_EntityManager = std::make_unique<EntityManager>();
     g_WorldGenerator = std::make_unique<WorldGenerator>(1337);
     g_MasterRenderer = std::make_unique<MasterRenderer>();
 
@@ -38,8 +39,6 @@ Game::Game() {
     g_Camera.target = {g_WindowWidth * 0.5f, g_WindowHeight * 0.5f};
     g_Camera.offset = {g_WindowWidth * 0.5f, g_WindowHeight * 0.5f};
     // ========
-
-    std::cout << TOP_RIGHT_CORNER_INDEX.x << " " << TOP_RIGHT_CORNER_INDEX.y << std::endl;
 
     m_IsRunning = true;
 }
@@ -71,12 +70,13 @@ void Game::Update() {
             g_Camera.zoom += 0.5f;
         } else if (IsKeyPressed(KEY_E)) {
             g_Camera.zoom -= 0.5f;
-
         }
 
         OnUpdate.Dispatch();
 
         Render();
+
+        g_EntityManager->AfterEntitiesFinished();
 
         if (WindowShouldClose()) {
             m_IsRunning = false;
