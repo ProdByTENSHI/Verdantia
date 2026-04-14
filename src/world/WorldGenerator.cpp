@@ -6,18 +6,19 @@
 
 #include "globals/Globals.hpp"
 
+#pragma region Noise Helper Functions
 TileType WorldGenerator::NoiseToTileType(f32 noise) {
     if (noise < 0.5f) {
         return TileType::Water;
     } else if (noise > 0.51f) {
-        return TileType::Grassland;
+        return TileType::Land;
     }
 
-    return TileType::Grassland;
+    return TileType::Land;
 }
 
 // Each Tile corresponds to one Biome
-void WorldGenerator::GenerateNoiseMap(f64** noiseMap, u32 w, u32 h, f32 frequency, f32 weight) {
+void WorldGenerator::GenerateNoiseMap(f64 **noiseMap, u32 w, u32 h, f32 frequency, f32 weight) {
     for (i32 x = 0; x < w; x++) {
         for (i32 y = 0; y < h; y++) {
             f64 _nx = (f64) x * frequency;
@@ -33,12 +34,11 @@ void WorldGenerator::GenerateNoiseMap(f64** noiseMap, u32 w, u32 h, f32 frequenc
 }
 
 Texture2D WorldGenerator::NoiseToTexture(f64 **noiseMap, u32 w, u32 h) {
-    Texture2D texture;
-    Color *_colorBuffer = (Color*)malloc(w * h * sizeof(Color));
+    Color *_colorBuffer = (Color *) malloc(w * h * sizeof(Color));
 
     for (i32 x = 0; x < w; x++) {
         for (i32 y = 0; y < h; y++) {
-            unsigned char brightness = (u8)(noiseMap[x][y] * 255.0f);
+            unsigned char brightness = (u8) (noiseMap[x][y] * 255.0f);
 
             _colorBuffer[y * w + x] = (Color){
                 brightness,
@@ -51,71 +51,183 @@ Texture2D WorldGenerator::NoiseToTexture(f64 **noiseMap, u32 w, u32 h) {
 
     Image img = {
         .data = _colorBuffer,
-        .width = (i32)w,
-        .height = (i32)h,
+        .width = (i32) w,
+        .height = (i32) h,
         .mipmaps = 1,
         .format = PIXELFORMAT_UNCOMPRESSED_R8G8B8A8
     };
 
-    texture = LoadTextureFromImage(img);
+    Texture2D texture = LoadTextureFromImage(img);
 
     delete _colorBuffer;
 
     return texture;
 }
+#pragma endregion Noise Helper Functions
 
+#pragma region World Generation
 void WorldGenerator::GenerateWorld() {
     // Clear World if we regenerate
-    if (m_WasGenerated) {
+    if (m_WasWorldGenerated) {
         ClearWorld();
     }
 
-    // First Step of World Generation is to fill entire Screen with Water
-    m_Tiles = new Tile* [g_WindowWidth];
-
-    for (i32 x = 0; x < g_WindowWidth; x++) {
-        m_Tiles[x] = new Tile[g_WindowHeight];
-        for (i32 y = 0; y < g_WindowHeight; y++) {
-            m_Tiles[x][y].m_Type = TileType::Water;
-        }
-    }
-
-    m_WasGenerated = true;
+    m_WasWorldGenerated = true;
 }
 
 void WorldGenerator::ClearWorld() {
-    for (i32 i = 0; i < g_WindowWidth; i++) {
-        delete[] m_Tiles[i];
-    }
-
-    delete[] m_Tiles;
 }
+#pragma endregion World Generation
 
-Tile** WorldGenerator::GenerateIsland(Vector2Int pos, Vector2Int size, f32 frequency) {
-    Tile** tiles = new Tile*[size.x];
+#pragma region Island
+Island *WorldGenerator::GenerateIsland(Vector2Int size, Vector2 pos) {
+    Island *island = nullptr;
+    Tile **tiles = new Tile *[size.y];
 
+    // First Pass: Terrain Gen
     for (i32 x = 0; x < size.x; x++) {
-        tiles[x] = new Tile[size.y];
+        tiles[x] = new Tile[size.x];
         for (i32 y = 0; y < size.y; y++) {
-            // 1. Create Falloff Mask so we get one big Island
-            f32 _dx = (x - (size.x * 0.5f)) / (size.x * 0.5f);
-            f32 _dy = (y - (size.y * 0.5f)) / (size.y * 0.5f);
-
-            // Calc the distance from the Island Center to this Tile
-            f32 _dist = sqrt(_dx * _dx + _dy * _dy);
-            f32 _fallOff = 1.0f - _dist;
-
-            // 2. Mix with Noise
-            f64 _noise = m_NoiseGen.GetNoise((f32)x * frequency, (f32)y * frequency);
-
-            f64 _finalVal = _noise + _fallOff;
-
             Tile _tile;
-            _tile.m_Type = NoiseToTileType(_finalVal);
+            _tile.m_Type = TileType::Land;
             tiles[x][y] = _tile;
-            m_Tiles[x+pos.x][y+pos.y] = _tile;
         }
     }
 
-    return tiles;
+    // Second Pass: Edge Detection
+    for (i32 x = 0; x < size.x; x++) {
+        for (i32 y = 0; y < size.y; y++) {
+            if (!IsLand(tiles, x, y, size)) {
+                continue;
+            }
+
+            u8 _mask = CalculateEdgeMask(tiles, x, y, size);
+            tiles[x][y].m_NeighbourMask = _mask;
+            Vector2Int _index = GetSpriteFromTileMask(_mask);
+            tiles[x][y].m_SpriteSheetIndex = _index;
+            if (_mask % 2 != 0) {
+                std::cout << "Index of Tile " << MaskToStr(_mask) << " "
+                        << _index.x << " " << _index.y << std::endl;
+            }
+        }
+    }
+
+    island = new Island(tiles, size, pos);
+    return island;
 }
+
+bool WorldGenerator::IsLand(Tile **tiles, i32 x, i32 y, Vector2Int size) const {
+    if (x < 0 || x >= size.x || y < 0 || y >= size.y) {
+        return false;
+    }
+
+    return tiles[x][y].m_Type == TileType::Land;
+}
+
+u8 WorldGenerator::CalculateEdgeMask(Tile **tiles, u32 x, u32 y, Vector2Int size) const {
+    u8 _mask = 0;
+
+    if (IsLand(tiles, x, y - 1, size)) { _mask |= TOP; }
+    if (IsLand(tiles, x, y + 1, size)) { _mask |= BOTTOM; }
+    if (IsLand(tiles, x + 1, y, size)) { _mask |= RIGHT; }
+    if (IsLand(tiles, x - 1, y, size)) { _mask |= LEFT; }
+
+    return _mask;
+}
+
+Vector2Int WorldGenerator::GetSpriteFromTileMask(u8 mask) const {
+    Vector2Int _index = {0, 0};
+
+    switch (mask) {
+        // TOP LEFT CORNER
+        case BOTTOM | RIGHT:
+            _index = TOP_LEFT_CORNER_INDEX;
+            break;
+
+        // TOP RIGHT CORNER
+        case BOTTOM | LEFT:
+            _index = TOP_RIGHT_CORNER_INDEX;
+            break;
+
+        // BOTTOM LEFT CORNER
+        case TOP | RIGHT:
+            _index = BOTTOM_LEFT_CORNER_INDEX;
+            break;
+
+        // BOTTOM RIGHT CORNER
+        case TOP | LEFT:
+            _index = BOTTOM_RIGHT_CORNER_INDEX;
+            break;
+
+        // TOP EDGE
+        case BOTTOM | RIGHT | LEFT:
+            _index = TOP_EDGE_INDEX;
+            break;
+
+        // BOTTOM EDGE
+        case TOP | RIGHT | LEFT:
+            _index = BOTTOM_EDGE_INDEX;
+            break;
+
+        // LEFT EDGE
+        case TOP | BOTTOM | RIGHT:
+            _index = LEFT_EDGE_INDEX;
+            break;
+
+        // RIGHT EDGE
+        case TOP | BOTTOM | LEFT:
+            _index = RIGHT_EDGE_INDEX;
+            break;
+
+        // CENTER
+        case TOP | BOTTOM | LEFT | RIGHT:
+            _index = {1, 1};
+            break;
+
+        default:
+            _index = {1, 1};
+            break;
+    }
+
+    return _index;
+}
+
+std::string WorldGenerator::MaskToStr(u8 mask) {
+    switch (mask) {
+        // TOP LEFT CORNER
+        case BOTTOM | RIGHT:
+            return "Top Left Corner";
+
+        // TOP RIGHT CORNER
+        case BOTTOM | LEFT:
+            return "Top Right Corner";
+
+        // BOTTOM LEFT CORNER
+        case TOP | RIGHT:
+            return "Bottom Left Corner";
+
+        // BOTTOM RIGHT CORNER
+        case TOP | LEFT:
+            return "Bottom Right Corner";
+
+        // TOP EDGE
+        case BOTTOM | RIGHT | LEFT:
+            return "Top Edge";
+
+        // BOTTOM EDGE
+        case TOP | RIGHT | LEFT:
+            return "Bottom Edge";
+
+        // LEFT EDGE
+        case TOP | BOTTOM | RIGHT:
+            return "Left Edge";
+
+        // RIGHT EDGE
+        case TOP | BOTTOM | LEFT:
+            return "Right Edge";
+
+        default:
+            return "Center";
+    }
+}
+#pragma endregion Island

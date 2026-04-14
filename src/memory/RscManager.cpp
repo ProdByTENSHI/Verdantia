@@ -1,19 +1,38 @@
 #include "memory/RscManager.hpp"
 
-Texture2D *RscManager::GetTexture(TextureType type, std::string name) {
-    if (m_TextureCache.find({(u8)type, name}) != m_TextureCache.end()) {
-        return m_TextureCache[{(u8)type, name}];
+#include "globals/Constants.hpp"
+
+Texture2D *RscManager::GetTexture(const TextureType type, const std::string &name) {
+    if (m_TextureCache.find({(u8) type, name}) != m_TextureCache.end()) {
+        return m_TextureCache[{(u8) type, name}];
     }
 
     std::string path = GetTexturePath(type, name);
-    Texture2D* texture = new Texture2D();
+    Texture2D *texture = new Texture2D();
     *texture = LoadTexture(path.c_str());
 
-    m_TextureCache.insert({{(u8)type, name}, texture});
+    m_TextureCache.insert({{(u8) type, name}, texture});
+
+    spdlog::info("Texture loaded: {}", path);
+
     return texture;
 }
 
-std::string RscManager::GetTexturePath(TextureType type, std::string name) {
+SpriteSheet *RscManager::GetSpriteSheet(const TextureType type, const std::string &name) {
+    if (m_SpriteSheetCache.find({(u8) type, name}) != m_SpriteSheetCache.end()) {
+        return m_SpriteSheetCache[{(u8) type, name}];
+    }
+
+    // For now just use 16x16 Frame Size for all Spritesheets
+    // TODO Store such data in JSON File and load Data from there instead of Hard Coding
+    SpriteSheet *ssheet = new SpriteSheet(GetTexture(type, name), TILE_SIZE, TILE_SIZE);
+
+    m_SpriteSheetCache.insert({{(u8) type, name}, ssheet});
+
+    return ssheet;
+}
+
+std::string RscManager::GetTexturePath(const TextureType type, const std::string &name) {
     std::string path = "assets/sprites/";
 
     switch (type) {
@@ -40,7 +59,6 @@ std::string RscManager::GetTexturePath(TextureType type, std::string name) {
         case TextureType::Animal:
             path += "Animals/";
             break;
-
     }
 
     path += name;

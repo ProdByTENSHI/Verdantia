@@ -4,8 +4,10 @@
 #include <unordered_map>
 #include <string>
 #include <raylib.h>
+#include <spdlog/spdlog.h>
 
 #include "tenshiUtil/Types.h"
+#include "graphics/SpriteSheet.hpp"
 
 enum class TextureType : u8 {
     GroundTile,
@@ -18,7 +20,9 @@ enum class TextureType : u8 {
 
 // Used for Rsc Key Lookup
 struct RscKey {
-    RscKey(u8 type, const std::string &name) : m_Type(type), m_Name(name) {}
+    RscKey(u8 type, const std::string &name) : m_Type(type), m_Name(name) {
+    }
+
     u8 m_Type = 0;
     std::string m_Name = "";
 
@@ -36,10 +40,13 @@ struct std::hash<RscKey> {
 
 class RscManager {
 public:
-    Texture2D* GetTexture(TextureType type, std::string name);
+    Texture2D *GetTexture(const TextureType type, const std::string &name);
 
-    std::string GetTexturePath(TextureType type, std::string name);
+    SpriteSheet *GetSpriteSheet(const TextureType type, const std::string &name);
+
+    static std::string GetTexturePath(const TextureType type, const std::string &name);
 
 private:
-    std::unordered_map<RscKey, Texture2D*> m_TextureCache;
+    std::unordered_map<RscKey, Texture2D *> m_TextureCache;
+    std::unordered_map<RscKey, SpriteSheet *> m_SpriteSheetCache;
 };
