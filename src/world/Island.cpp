@@ -34,7 +34,7 @@ Island::~Island() {
 void Island::Render() {
     for (i32 x = 0; x < m_Size.x; x++) {
         for (i32 y = 0; y < m_Size.y; y++) {
-            RenderTile &tile = m_RenderTiles[y][x];
+            RenderTile &tile = m_RenderTiles[x][y];
             DrawTextureRec(*m_TilesSprite->GetTexture(), tile.m_SourceRect,
                            {m_Position.x + (x * TILE_SIZE), m_Position.y + (y * TILE_SIZE)},
                            WHITE);

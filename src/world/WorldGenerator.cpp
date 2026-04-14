@@ -141,55 +141,43 @@ Vector2Int WorldGenerator::GetSpriteFromTileMask(u8 mask) const {
     switch (mask) {
         // TOP LEFT CORNER
         case BOTTOM | RIGHT:
-            _index = TOP_LEFT_CORNER_INDEX;
-            break;
+            return TOP_LEFT_CORNER_INDEX;
 
         // TOP RIGHT CORNER
         case BOTTOM | LEFT:
-            _index = TOP_RIGHT_CORNER_INDEX;
-            break;
+            return TOP_RIGHT_CORNER_INDEX;
 
         // BOTTOM LEFT CORNER
         case TOP | RIGHT:
-            _index = BOTTOM_LEFT_CORNER_INDEX;
-            break;
+            return BOTTOM_LEFT_CORNER_INDEX;
 
         // BOTTOM RIGHT CORNER
         case TOP | LEFT:
-            _index = BOTTOM_RIGHT_CORNER_INDEX;
-            break;
+            return BOTTOM_RIGHT_CORNER_INDEX;
 
         // TOP EDGE
         case BOTTOM | RIGHT | LEFT:
-            _index = TOP_EDGE_INDEX;
-            break;
+            return TOP_EDGE_INDEX;
 
         // BOTTOM EDGE
         case TOP | RIGHT | LEFT:
-            _index = BOTTOM_EDGE_INDEX;
-            break;
+            return BOTTOM_EDGE_INDEX;
 
         // LEFT EDGE
         case TOP | BOTTOM | RIGHT:
-            _index = LEFT_EDGE_INDEX;
-            break;
+            return LEFT_EDGE_INDEX;
 
         // RIGHT EDGE
         case TOP | BOTTOM | LEFT:
-            _index = RIGHT_EDGE_INDEX;
-            break;
+            return RIGHT_EDGE_INDEX;
 
         // CENTER
         case TOP | BOTTOM | LEFT | RIGHT:
-            _index = {1, 1};
-            break;
+            return {1, 1};
 
         default:
-            _index = {1, 1};
-            break;
+            return {1, 1};
     }
-
-    return _index;
 }
 
 std::string WorldGenerator::MaskToStr(u8 mask) {
