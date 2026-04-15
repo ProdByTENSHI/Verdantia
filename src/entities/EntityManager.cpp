@@ -3,8 +3,6 @@
 #include <spdlog/spdlog.h>
 #include <algorithm>
 
-u32 Entity::s_IdCounter = 0;
-
 EntityManager::EntityManager() {
 }
 

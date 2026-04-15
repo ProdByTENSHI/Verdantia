@@ -1,6 +1,8 @@
 #pragma once
 
 #include "tenshiUtil/Types.h"
+#include "globals/Constants.hpp"
+#include "render/RenderCommand.hpp"
 
 #include <raylib.h>
 #include <vector>
@@ -9,9 +11,19 @@
 class MasterRenderer {
 public:
     MasterRenderer();
+
     ~MasterRenderer();
+
+    void PushRenderCommand(RenderLayer layer, RenderCommand cmd);
 
     void Render();
 
 private:
+    void StageRenderCmdBuffers();
+
+    std::vector<RenderCommand> &GetCommandBufferByLayer(RenderLayer layer);
+
+private:
+    std::vector<RenderCommand> m_GroundRenderCommands;
+    std::vector<RenderCommand> m_EntityRenderCommands;
 };

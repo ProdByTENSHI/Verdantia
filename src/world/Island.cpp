@@ -5,7 +5,7 @@
 #include "globals/Globals.hpp"
 
 Island::Island(Tile **tiles, Vector2Int size, Vector2 pos) : m_Size(size), m_Position(pos) {
-    m_TilesSprite = g_RscManager->GetSpriteSheet(TextureType::GroundTile, "Grass_Tiles.png");
+    m_TilesSprite = g_RscManager->LoadSpriteSheet(TextureType::GroundTile, "Grass_Tiles.png");
     m_Tiles = tiles;
     m_RenderTiles = new RenderTile *[size.y];
     for (i32 x = 0; x < m_Size.x; x++) {

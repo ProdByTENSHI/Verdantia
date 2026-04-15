@@ -3,6 +3,7 @@
 #include "tenshiUtil/Types.h"
 
 #include <functional>
+#include <raylib.h>
 
 struct Vector2Int {
     i32 x = 0;
@@ -20,11 +21,15 @@ struct Vector2Int {
     }
 
     Vector2Int& operator =(const Vector2Int &rhs) = default;
+
+    operator Vector2() const {
+        return Vector2((f32)x, (f32)y);
+    }
 };
 
 template<>
 struct std::hash<Vector2Int> {
-    std::size_t operator()(const Vector2Int &coord) const {
+    std::size_t operator()(const Vector2Int &coord) const noexcept {
         return std::hash<i32>()(coord.x) ^ (std::hash<i32>()(coord.y) << 1);
     }
 };

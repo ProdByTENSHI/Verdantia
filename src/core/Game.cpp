@@ -21,24 +21,26 @@ void GenerateIsland() {
 Game::Game() {
     InitWindow(g_WindowWidth, g_WindowHeight, "Verdantia");
     SetTargetFPS(60);
-    // ToggleFullscreen();
+
+    ToggleFullscreen();
+    g_WindowWidth = 1920;
+    g_WindowHeight = 1080;
 
     g_RscManager = std::make_unique<RscManager>();
     g_EntityManager = std::make_unique<EntityManager>();
     g_WorldGenerator = std::make_unique<WorldGenerator>(1337);
     g_MasterRenderer = std::make_unique<MasterRenderer>();
+    g_Camera = std::make_unique<VerdantiaCamera>();
 
     // == DEBUG
     g_WorldGenerator->GenerateWorld();
     GenerateIsland();
 
-    grasslandTexture = g_RscManager->GetSpriteSheet(TextureType::GroundTile, "Grass_Tiles.png");
-    waterTexture = g_RscManager->GetSpriteSheet(TextureType::GroundTile, "Water.png");
-
-    g_Camera.zoom = 2.0f;
-    g_Camera.target = {g_WindowWidth * 0.5f, g_WindowHeight * 0.5f};
-    g_Camera.offset = {g_WindowWidth * 0.5f, g_WindowHeight * 0.5f};
+    grasslandTexture = g_RscManager->LoadSpriteSheet(TextureType::GroundTile, "Grass_Tiles.png");
+    waterTexture = g_RscManager->LoadSpriteSheet(TextureType::GroundTile, "Water.png");
     // ========
+
+    m_Player = g_EntityManager->CreateEntity<Player>();
 
     m_IsRunning = true;
 }
@@ -51,28 +53,19 @@ Game::~Game() {
 
 void Game::Update() {
     while (m_IsRunning) {
-        if (IsKeyPressed(KEY_SPACE)) {
-            GenerateIsland();
-        }
-
-        if (IsKeyDown(KEY_W)) {
-            g_Camera.target.y -= 3.0f;
-        } else if (IsKeyDown(KEY_S)) {
-            g_Camera.target.y += 3.0f;
-        }
-        if (IsKeyDown(KEY_A)) {
-            g_Camera.target.x -= 3.0f;
-        } else if (IsKeyDown(KEY_D)) {
-            g_Camera.target.x += 3.0f;
-        }
-
-        if (IsKeyPressed(KEY_Q)) {
-            g_Camera.zoom += 0.5f;
-        } else if (IsKeyPressed(KEY_E)) {
-            g_Camera.zoom -= 0.5f;
+        // -- Animation Tick
+        if (m_TimeSinceLastAnimTick >= TIME_BETWEEN_ANIM_TICKS) {
+            m_TimeSinceLastAnimTick = 0.0f;
+            OnAnimTick.Dispatch();
+        } else {
+            m_TimeSinceLastAnimTick += GetFrameTime();
         }
 
         OnUpdate.Dispatch();
+        m_Player->Update();
+
+        // Update Camera after Entity Updates
+        g_Camera->Update(m_Player->m_Position);
 
         Render();
 

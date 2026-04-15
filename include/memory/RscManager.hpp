@@ -8,26 +8,21 @@
 
 #include "tenshiUtil/Types.h"
 #include "graphics/SpriteSheet.hpp"
-
-enum class TextureType : u8 {
-    GroundTile,
-    Building,
-    AnimalBuilding,
-    Object,
-    Player,
-    Animal
-};
+#include "globals/Constants.hpp"
 
 // Used for Rsc Key Lookup
 struct RscKey {
-    RscKey(u8 type, const std::string &name) : m_Type(type), m_Name(name) {
+    RscKey() {}
+
+    RscKey(u8 type, const std::string &name)
+        : m_Type(type), m_Name(name) {
     }
 
     u8 m_Type = 0;
     std::string m_Name = "";
 
     bool operator==(const RscKey &rhs) const {
-        return m_Type == rhs.m_Type && m_Name == rhs.m_Name;
+        return (m_Type == rhs.m_Type) && (m_Name == rhs.m_Name);
     }
 };
 
@@ -42,11 +37,20 @@ class RscManager {
 public:
     Texture2D *GetTexture(const TextureType type, const std::string &name);
 
-    SpriteSheet *GetSpriteSheet(const TextureType type, const std::string &name);
+    SpriteSheet *LoadSpriteSheet(const TextureType type, const std::string &name);
 
-    static std::string GetTexturePath(const TextureType type, const std::string &name);
+    // Only returns a valid Pointer if LoadSpriteSheet was called before
+    SpriteSheet *GetSpriteSheetById(const TextureType type, u32 id);
+
+    static std::string GetTexturePath(const TextureType type,
+        const std::string &name);
 
 private:
     std::unordered_map<RscKey, Texture2D *> m_TextureCache;
     std::unordered_map<RscKey, SpriteSheet *> m_SpriteSheetCache;
+
+    std::unordered_map<u32, RscKey> m_TextureCacheIdLUT;
+    std::unordered_map<u32, RscKey> m_SpriteSheetCacheIdLUT;
+
+    u32 m_SpriteSheetCount = 0;
 };

@@ -9,7 +9,7 @@
 
 class SpriteSheet {
 public:
-    SpriteSheet(Texture2D* texture, u32 fWidth, u32 fHeight);
+    SpriteSheet(u32 id, Texture2D* texture, u32 fWidth, u32 fHeight);
     ~SpriteSheet();
 
     // Constructs a Source Rect for a Frame in the Spritesheet
@@ -17,6 +17,9 @@ public:
     Rectangle GetSourceRect(const Vector2Int frame) const;
 
     Texture2D* GetTexture() { return m_Texture;}
+
+public:
+    const u32 m_Id;
 
 private:
     Texture2D* m_Texture = nullptr;

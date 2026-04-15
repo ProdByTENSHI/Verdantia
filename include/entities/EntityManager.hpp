@@ -13,13 +13,13 @@ public:
     ~EntityManager();
 
 #pragma region Entity Lifetime
-    template<typename T, typename... Args,
-        std::enable_if_t<std::is_base_of_v<Entity, T> > >
-    T *CreateEntity(Args... args) {
+    template<typename T, typename... Args>
+        requires std::is_base_of_v<Entity, T>
+    T *CreateEntity(Args &&... args) {
         T *entity = new T(s_IdCounter, args...);
 
         m_Entities.push_back(entity);
-        m_EntityIdLUT[m_Entities.size() - 1] = entity;
+        m_EntityIdLUT[m_Entities.size() - 1] = m_Entities.size() - 1;
 
         return entity;
     }
@@ -29,6 +29,7 @@ public:
 #pragma endregion Entity Lifetime
 
     void UpdateEntities();
+
     void AfterEntitiesFinished();
 
     void RenderEntities();
@@ -40,7 +41,7 @@ public:
 #pragma endregion Entity Util
 
 private:
-    static u32 s_IdCounter;
+    inline static u32 s_IdCounter = 0;
     std::vector<Entity *> m_Entities;
     std::unordered_map<u32, size> m_EntityIdLUT;
 

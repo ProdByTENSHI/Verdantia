@@ -18,18 +18,26 @@ Texture2D *RscManager::GetTexture(const TextureType type, const std::string &nam
     return texture;
 }
 
-SpriteSheet *RscManager::GetSpriteSheet(const TextureType type, const std::string &name) {
+SpriteSheet *RscManager::LoadSpriteSheet(const TextureType type, const std::string &name) {
     if (m_SpriteSheetCache.find({(u8) type, name}) != m_SpriteSheetCache.end()) {
         return m_SpriteSheetCache[{(u8) type, name}];
     }
 
     // For now just use 16x16 Frame Size for all Spritesheets
     // TODO Store such data in JSON File and load Data from there instead of Hard Coding
-    SpriteSheet *ssheet = new SpriteSheet(GetTexture(type, name), TILE_SIZE, TILE_SIZE);
+    SpriteSheet *ssheet = new SpriteSheet(m_SpriteSheetCount,
+        GetTexture(type, name), TILE_SIZE, TILE_SIZE);
 
     m_SpriteSheetCache.insert({{(u8) type, name}, ssheet});
+    m_SpriteSheetCacheIdLUT.insert({m_SpriteSheetCount, {(u8) type, name}});
+
+    ++m_SpriteSheetCount;
 
     return ssheet;
+}
+
+SpriteSheet *RscManager::GetSpriteSheetById(const TextureType type, u32 id) {
+    return m_SpriteSheetCache[m_SpriteSheetCacheIdLUT[id]];
 }
 
 std::string RscManager::GetTexturePath(const TextureType type, const std::string &name) {

@@ -1,7 +1,7 @@
 #include "graphics/SpriteSheet.hpp"
 
-SpriteSheet::SpriteSheet(Texture2D *texture, u32 fWidth, u32 fHeight)
-    : m_Texture(texture), m_fWidth(fWidth), m_fHeight(fHeight) {
+SpriteSheet::SpriteSheet(u32 id, Texture2D *texture, u32 fWidth, u32 fHeight)
+    : m_Id(id), m_Texture(texture), m_fWidth(fWidth), m_fHeight(fHeight) {
     m_framesPerRow = texture->width / fWidth;
     m_framesPerCol = texture->height / fHeight;
 }
