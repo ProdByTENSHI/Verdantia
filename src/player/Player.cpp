@@ -33,6 +33,23 @@ Player::~Player()
 
 void Player::Update()
 {
+    if (IsKeyPressed(KEY_W))
+    {
+        SetFacingDirection(UP_DIR);
+    }
+    else if (IsKeyPressed(KEY_S))
+    {
+        SetFacingDirection(DOWN_DIR);
+    }
+    else if (IsKeyPressed(KEY_D))
+    {
+        SetFacingDirection(RIGHT_DIR);
+    }
+    else if (IsKeyPressed(KEY_A))
+    {
+        SetFacingDirection(LEFT_DIR);
+    }
+
     m_Position += m_MovementVector * GetFrameTime();
 
     m_CurrentAnimation->Update();

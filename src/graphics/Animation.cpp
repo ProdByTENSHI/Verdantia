@@ -33,10 +33,12 @@ void Animation::Update()
     {
         m_TimeSinceLastFrame = 0.0f;
 
-        if (m_CurrentFrame >= m_Frames.size())
+        if (m_CurrentFrame >= m_Frames.size() - 1)
             m_CurrentFrame = 0;
         else
+        {
             ++m_CurrentFrame;
+        }
     }
     else
     {
