@@ -1,0 +1,44 @@
+{
+  "textures": [
+    {
+      "id": "Player",
+      "path": "assets/sprites/Player/Character.png"
+    },
+    {
+      "id": "Grass_Tiles",
+      "path": "assets/sprites/Tilesets/ground/Grass_Tiles.png"
+    }
+  ],
+  "sprite_sheets": [
+    {
+      "id": "Player",
+      "texture": "Player",
+      "frame_width": 48,
+      "frame_height": 48,
+      "grid": [9,24]
+    },
+    {
+      "id": "Grass_Tiles",
+      "texture": "Grass_Tiles",
+      "frame_width": 16,
+      "frame_height": 16,
+      "grid": [11,7]
+    }
+  ],
+  "sprites": [
+
+  ],
+  "animations": [
+    {
+      "id": "Player_Idle_Down",
+      "sprite_sheet": "Player",
+      "frames": [[0,0],[1,0],[2,0],[3,0],[4,0],[5,0],[6,0],[7,0],[8,0]]
+    }
+  ],
+  "sounds": [
+  ],
+  "music": [
+  ],
+  "fonts": [
+  ]
+}

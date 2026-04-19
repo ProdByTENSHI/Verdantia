@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BackendCodeEditorMiscSettings">
-    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="5" type="long" />
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="6" type="long" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/LiveTemplatesHousekeeping/HotspotSessionHintIsShown/@EntryValue" value="true" type="bool" />
   </component>
@@ -37,27 +37,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29f53bdf-45f0-4fdc-8eb9-7d91f8600a40" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/graphics/SpriteSheet.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/graphics/SpriteSheet.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/memory/RscManager.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/memory/RscManager.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/player/Player.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/player/Player.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/render/MasterRenderer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/render/MasterRenderer.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/render/RenderCommand.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/render/RenderCommand.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/tenshiUtil/eventsystem/EventSystem.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/tenshiUtil/eventsystem/EventSystem.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphics/SpriteSheet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphics/SpriteSheet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/memory/RscManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/memory/RscManager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Player.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/render/MasterRenderer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/render/MasterRenderer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/render/VerdantiaCamera.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/render/VerdantiaCamera.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/Island.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/Island.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/WorldGenerator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/WorldGenerator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +114,7 @@
     "code.cleanup.on.save": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/leon/Schreibtisch/Dev/Games",
+    "last_opened_file_path": "/home/leon/Schreibtisch/Dev/Games/Verdantia",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -144,6 +125,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager" selected="CMake Application.Verdantia">
     <configuration name="LDtkLoader" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Verdantia" TARGET_NAME="LDtkLoader" CONFIG_NAME="Debug">
       <method v="2">
@@ -215,7 +201,7 @@
       <option name="presentableId" value="Default" />
       <updated>1776443292066</updated>
       <workItem from="1776443293818" duration="13658000" />
-      <workItem from="1776538501449" duration="14929000" />
+      <workItem from="1776538501449" duration="15680000" />
     </task>
     <servers />
   </component>
