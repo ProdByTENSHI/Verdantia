@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-subbuild/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
