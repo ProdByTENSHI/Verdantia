@@ -9,6 +9,7 @@
 #include "tenshiUtil/Types.h"
 #include "graphics/SpriteSheet.hpp"
 #include "globals/Constants.hpp"
+#include "graphics/Animation.hpp"
 #include "tenshiUtil/io/json.hpp"
 
 using json = nlohmann::json;
@@ -17,7 +18,8 @@ enum class RscType : u8
 {
     Texture,
     SpriteSheet,
-    Sprite,     // A Frame in a Sprite Sheet
+    Sprite, // A Frame in a Sprite Sheet
+    Animation,
     Sound,
     Music,
     Font
@@ -26,11 +28,16 @@ enum class RscType : u8
 #pragma region Assets
 struct AssetBinding
 {
-    AssetBinding() {}
-    AssetBinding(const char* name, u32* target)
-        : m_Name(name), m_Target(target) {}
+    AssetBinding()
+    {
+    }
 
-    const char *m_Name = "";
+    AssetBinding(const char* name, u32* target)
+        : m_Name(name), m_Target(target)
+    {
+    }
+
+    const char* m_Name = "";
     u32* m_Target = nullptr;
 };
 
@@ -39,66 +46,90 @@ namespace Textures
 {
     inline u32 Player;
     inline u32 GrassTiles;
-}
 
-inline AssetBinding textureBinding[] = {
-    {"Player", &Textures::Player},
-    {"Grass_Tiles", &Textures::GrassTiles}
-};
+    inline AssetBinding textureBinding[] = {
+        {"Player", &Textures::Player},
+        {"Grass_Tiles", &Textures::GrassTiles}
+    };
+}
 
 namespace SpriteSheets
 {
     inline u32 Player;
     inline u32 GrassTiles;
+
+    inline AssetBinding spriteSheetBinding[] = {
+        {"Player", &SpriteSheets::Player},
+        {"Grass_Tiles", &SpriteSheets::GrassTiles}
+    };
 }
 
-inline AssetBinding spriteSheetBinding[] = {
-    {"Player", &SpriteSheets::Player},
-    {"Grass_Tiles", &SpriteSheets::GrassTiles}
-};
+namespace Animations
+{
+    inline u32 PlayerIdleDown;
+    inline u32 PlayerIdleUp;
+    inline u32 PlayerIdleRight;
+    inline u32 PlayerIdleLeft;
+
+    inline AssetBinding animBinding[] = {
+        {"Player_Idle_Down", &Animations::PlayerIdleDown},
+        {"Player_Idle_Up", &Animations::PlayerIdleUp},
+        {"Player_Idle_Right", &Animations::PlayerIdleRight},
+        {"Player_Idle_Left", &Animations::PlayerIdleLeft}
+    };
+}
 
 #pragma endregion
 
 // Used for Rsc Key Lookup
 // Manifest ID Strings get hashed to a u32 for better Look up
 // We store a LUT to map the Names to the IDs
-struct RscKey {
-    RscKey() {}
+struct RscKey
+{
+    RscKey()
+    {
+    }
 
     RscKey(RscType type, u32 id)
-        : m_Type(type), m_Id(id) {
+        : m_Type(type), m_Id(id)
+    {
     }
 
     RscType m_Type = RscType::Texture;
     u32 m_Id = 1337;
 
-    bool operator==(const RscKey &rhs) const {
+    bool operator==(const RscKey& rhs) const
+    {
         return (m_Type == rhs.m_Type) && (m_Id == rhs.m_Id);
     }
 };
 
-template<>
-struct std::hash<RscKey> {
-    std::size_t operator()(const RscKey &key) const noexcept {
+template <>
+struct std::hash<RscKey>
+{
+    std::size_t operator()(const RscKey& key) const noexcept
+    {
         return std::hash<u8>()((u8)key.m_Type) ^ (std::hash<u32>()(key.m_Id) << 1);
     }
 };
 
-class RscManager {
+class RscManager
+{
 public:
     // Load Assets from AssetsManifest.json File
     void LoadAssets();
 
-    Texture2D *GetTexture(u32 id);
-
-    // Only returns a valid Pointer if LoadSpriteSheet was called before
-    SpriteSheet *GetSpriteSheetById(u32 id);
+    Texture2D* GetTexture(u32 id);
+    SpriteSheet* GetSpritesheet(u32 id);
+    Animation* GetAnimation(u32 id);
 
 private:
     // Returns the ID of the Texture
     u32 LoadTex(const std::string& id, const std::string& path);
     u32 LoadSpriteSheet(const std::string& id, u32 textureId,
-        u32 fWidth, u32 fHeight);
+                        u32 fWidth, u32 fHeight);
+    u32 LoadAnimation(const std::string& id, u32 ssheetId,
+                      f32 interval, std::vector<Rectangle> frames);
 
     void PopulateAssetBindings(RscType type);
 
@@ -118,8 +149,10 @@ private:
 
     std::vector<Texture2D*> m_TextureCache;
     std::vector<SpriteSheet*> m_SpriteSheetCache;
+    std::vector<Animation*> m_AnimCache;
 
     // Only use this for Initial Asset Loading + Debug
     std::unordered_map<std::string, u32> m_TexStrToId;
     std::unordered_map<std::string, u32> m_SpriteSheetStrToId;
+    std::unordered_map<std::string, u32> m_AnimStrToId;
 };

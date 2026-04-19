@@ -71,10 +71,9 @@ void MasterRenderer::RenderDrawCommandBuffer(const std::vector<RenderCommand>& b
         if (_lastTextureId != _cmd.m_TextureId)
         {
             _lastTextureId = m_GroundRenderCommands[i].m_TextureId;
-            _spriteSheet = g_RscManager->GetSpriteSheetById(_lastTextureId);
+            _spriteSheet = g_RscManager->GetSpritesheet(_lastTextureId);
             _texture = *g_RscManager->GetTexture(_spriteSheet->GetTexture());
         }
-
 
         DrawTextureRec(_texture, _cmd.m_SrcRect, _cmd.m_Position, WHITE);
     }

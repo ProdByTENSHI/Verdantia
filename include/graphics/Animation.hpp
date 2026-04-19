@@ -12,6 +12,7 @@ struct Animation
     ~Animation();
 
     RenderCommand GetRenderCommand() const;
+    void Update();
 
     u32 m_SpriteSheetId = 0;
     f32 m_Interval = 0.1f;
@@ -20,4 +21,5 @@ struct Animation
 
 private:
     Texture2D m_Texture;
+    f32 m_TimeSinceLastFrame = 0.0f;
 };

@@ -17,7 +17,10 @@ public:
     // 0,0 to MAX,MAX
     Rectangle GetSourceRect(const Vector2Int frame) const;
 
-    u32 GetTexture() { return m_TextureId; }
+    u32 GetTexture() const { return m_TextureId; }
+
+    u32 GetFrameWidth() const { return m_fWidth; }
+    u32 GetFrameHeight() const { return m_fHeight; }
 
 public:
     const u32 m_Id;

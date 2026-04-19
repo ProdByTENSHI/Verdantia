@@ -3,79 +3,79 @@
 #include "raymath.h"
 #include "globals/Globals.hpp"
 
-Player::Player(u32 id, const std::string &name) : Entity(id, "Player") {
-    SetState(PlayerState::Walking);
+Player::Player(u32 id, const std::string& name) : Entity(id, "Player")
+{
+    // -- Init States
+    m_IdleState = new PlayerIdleState();
+
+    SetState(PlayerStates::Idle);
+
+    UpdateHandler.SetFunction([this]()
+    {
+        Update();
+    });
+    OnUpdate += UpdateHandler;
+
+    RenderHandler.SetFunction([this]()
+    {
+        Render();
+    });
+    OnRender += RenderHandler;
 }
 
-Player::~Player() {
+Player::~Player()
+{
+    OnUpdate -= UpdateHandler;
+    OnRender -= RenderHandler;
 }
 
-void Player::Update() {
-    // -- Temporary Movement
-    PlayerState _movementState = PlayerState::Walking;
-    if (IsKeyDown(KEY_LEFT_SHIFT)) {
-        _movementState = PlayerState::Running;
-    } else if (IsKeyReleased(KEY_LEFT_SHIFT)) {
-        _movementState = PlayerState::Walking;
-    }
-
-    if (IsKeyDown(KEY_W)) {
-        Move((Vector2) UP_DIR, _movementState);
-    } else if (IsKeyDown(KEY_S)) {
-        Move((Vector2) DOWN_DIR, _movementState);
-    }
-    if (IsKeyDown(KEY_A)) {
-        Move((Vector2) LEFT_DIR, _movementState);
-    } else if (IsKeyDown(KEY_D)) {
-        Move((Vector2) RIGHT_DIR, _movementState);
-    }
-
-    if (IsKeyReleased(KEY_W)) {
-        SetState(PlayerState::Idle);
-        m_MovementVector = {0.0f, 0.0f};
-    } else if (IsKeyReleased(KEY_S)) {
-        SetState(PlayerState::Idle);
-        m_MovementVector = {0.0f, 0.0f};
-    }
-    if (IsKeyReleased(KEY_A)) {
-        SetState(PlayerState::Idle);
-        m_MovementVector = {0.0f, 0.0f};
-    } else if (IsKeyReleased(KEY_D)) {
-        SetState(PlayerState::Idle);
-        m_MovementVector = {0.0f, 0.0f};
-    }
-
+void Player::Update()
+{
     m_Position += m_MovementVector * GetFrameTime();
+
+    m_CurrentAnimation->Update();
 }
 
-void Player::Move(Vector2 movement, PlayerState state) {
-    if (m_State != state)
-        SetState(state);
+RenderCommand Player::CreateRenderCommand()
+{
+    RenderCommand _cmd = m_CurrentAnimation->GetRenderCommand();;
 
-    m_MovementVector = movement;
-    Vector2Normalize(m_MovementVector);
-
-    m_FacingDirection.x = (u32)m_MovementVector.x;
-    m_FacingDirection.y = (u32)m_MovementVector.y;
-
-    if (m_State == PlayerState::Walking) {
-        m_MovementVector *= m_WalkingSpeed;
-    } else if (m_State == PlayerState::Running) {
-        m_MovementVector *= m_RunningSpeed;
-    }
-
-}
-
-RenderCommand Player::CreateRenderCommand() {
-    RenderCommand _cmd;
+    _cmd.m_Position = m_Position;
 
     return _cmd;
 }
 
-void Player::Render() {
+void Player::Render()
+{
     g_MasterRenderer->PushRenderCommand(m_RenderLayer, CreateRenderCommand());
 }
 
-void Player::SetState(PlayerState state) {
-    m_State = state;
+void Player::SetFacingDirection(Vector2Int direction)
+{
+    m_FacingDirection = direction;
+    m_CurrentState->SetFacingDirection(direction);
+    m_CurrentAnimation = m_CurrentState->GetAnimation();
+}
+
+void Player::SetState(PlayerStates state)
+{
+    if (m_CurrentState != nullptr && state == m_CurrentState->m_State)
+        return;
+
+    PlayerState* _lastState = nullptr;
+    if (m_CurrentState != nullptr)
+        _lastState = m_CurrentState;
+
+    switch (state)
+    {
+    case PlayerStates::Idle:
+        m_CurrentState = m_IdleState;
+        break;
+    }
+
+    if (_lastState != nullptr)
+        _lastState->OnExit(*m_CurrentState);
+    m_CurrentState->OnEntry(*_lastState);
+
+    m_CurrentAnimation = m_CurrentState->GetAnimation();
 }

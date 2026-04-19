@@ -6,7 +6,7 @@ Animation::Animation(u32 spriteSheetId, f32 interval, std::vector<Rectangle> fra
     : m_SpriteSheetId(spriteSheetId), m_Interval(interval), m_Frames(frames)
 {
     m_Texture = *g_RscManager->GetTexture(
-        g_RscManager->GetSpriteSheetById(m_SpriteSheetId)->GetTexture());
+        g_RscManager->GetSpritesheet(m_SpriteSheetId)->GetTexture());
 }
 
 Animation::~Animation()
@@ -17,8 +17,30 @@ RenderCommand Animation::GetRenderCommand() const
 {
     RenderCommand _cmd;
 
+    Rectangle _frame = m_Frames[m_CurrentFrame];
+
     _cmd.m_TextureId = m_Texture.id;
-    _cmd.m_SrcRect = m_Frames[m_CurrentFrame];
+    _cmd.m_SrcRect = {
+        _frame.x * _frame.width, _frame.y * _frame.height,
+        _frame.width, _frame.height
+    };
 
     return _cmd;
+}
+
+void Animation::Update()
+{
+    if (m_TimeSinceLastFrame >= m_Interval)
+    {
+        m_TimeSinceLastFrame = 0.0f;
+
+        if (m_CurrentFrame >= m_Frames.size())
+            m_CurrentFrame = 0;
+        else
+            ++m_CurrentFrame;
+    }
+    else
+    {
+        m_TimeSinceLastFrame += GetFrameTime();
+    }
 }
