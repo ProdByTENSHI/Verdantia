@@ -41,7 +41,7 @@ void MasterRenderer::PushRenderCommand(RenderLayer layer, RenderCommand cmd)
 void MasterRenderer::StageRenderCmdBuffers()
 {
     // -- Sort Render Command Buffers
-    std::sort(m_EntityRenderCommands.begin(), m_EntityRenderCommands.end());
+    std::sort(m_GroundRenderCommands.begin(), m_GroundRenderCommands.end());
     std::sort(m_EntityRenderCommands.begin(), m_EntityRenderCommands.end());
 }
 
@@ -61,7 +61,7 @@ std::vector<RenderCommand>& MasterRenderer::GetCommandBufferByLayer(RenderLayer 
 
 void MasterRenderer::RenderDrawCommandBuffer(const std::vector<RenderCommand>& buffer) const
 {
-    u32 _lastTextureId = 0;
+    i32 _lastTextureId = -1;
     SpriteSheet* _spriteSheet = nullptr;
     Texture2D _texture;
 
@@ -70,7 +70,7 @@ void MasterRenderer::RenderDrawCommandBuffer(const std::vector<RenderCommand>& b
         RenderCommand _cmd = buffer[i];
         if (_lastTextureId != _cmd.m_TextureId)
         {
-            _lastTextureId = m_GroundRenderCommands[i].m_TextureId;
+            _lastTextureId = _cmd.m_TextureId;
             _spriteSheet = g_RscManager->GetSpritesheet(_lastTextureId);
             _texture = *g_RscManager->GetTexture(_spriteSheet->GetTexture());
         }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BackendCodeEditorMiscSettings">
-    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="6" type="long" />
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="5" type="long" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/LiveTemplatesHousekeeping/HotspotSessionHintIsShown/@EntryValue" value="true" type="bool" />
   </component>
@@ -38,196 +38,12 @@
   <component name="ChangeListManager">
     <list default="true" id="29f53bdf-45f0-4fdc-8eb9-7d91f8600a40" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/AssetsManifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken/Chicken_Animations_AsepriteFile.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken/Chicken_Animations_GifPreview.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken/Free Chicken Sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken/chicken blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken/chicken brown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken/chicken default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken/chicken green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken/chicken red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken_Baby/Chicken_Baby.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken_Baby/Chicken_Baby_Animations_AspriteFile.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken_Baby/Chicken_Baby_Animations_GifPreview.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken_Baby/Chicken_Baby_Blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken_Baby/Chicken_Baby_Brown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken_Baby/Chicken_Baby_Green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken_Baby/Chicken_Baby_Red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken_Egg/Chicken_Egg_Animations_AspriteFile.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken_Egg/Chicken_Egg_Animations_GifPreview.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken_Egg/Egg_Spritesheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken_Egg/Egg_Spritesheet_Brown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken_Egg/Egg_Spritesheet_Green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken_Egg/Egg_Spritesheet_blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Chicken_Egg/Egg_Spritesheet_red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Cow/Brown cow animations.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Cow/Free Cow Sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Cow/Green cow animation sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Cow/Light cow animations.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Cow/Pink cow animation sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Cow/Purple cow animation sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Cow/all cow animations.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Cow/all cow animations.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Cow_Baby/all baby cow animations.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Cow_Baby/all baby cow animations.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Cow_Baby/baby brown cow animations sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Cow_Baby/baby green cow animations sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Cow_Baby/baby light cow animations sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Cow_Baby/baby pink cow animations sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Animals/Cow_Baby/baby purple cow animations sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Boats.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Farming Plants.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Items/All items.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Items/Egg items.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Items/Farming Plants items.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Items/Milk and grass item Simple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Items/Milk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Items/egg-items.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Items/farming-Plants-items.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Items/fruit and berries items.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Items/fruit-n-berries-items.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Items/grass-n-ground-tile-items.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Items/item shadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Items/item-shadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Items/items-spritesheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Items/milk-items.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Items/milk-n-grass-item-simple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Items/tools and meterials.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Items/tools-n-meterial-items.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Mushrooms, Flowers, Stones.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Piknik basket.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Piknik blanket.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Tree/48x48.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Tree/Fruit animations without tree/no_tree_appel_sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Tree/Fruit animations without tree/no_tree_orange_sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Tree/Fruit animations without tree/no_tree_peach_sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Tree/Fruit animations without tree/no_tree_pear_sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Tree/tree animations.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Tree/tree apple sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Tree/tree fall Preview animation.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Tree/tree orange sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Tree/tree peach sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Tree/tree pear sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Tree/tree preview animations.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Tree/tree preview animations.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Tree/tree_appel_sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Tree/tree_fall_animation_sprite_sheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Tree/tree_orange_sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Tree/tree_peach_sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Tree/tree_pear_sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Tree/tree_sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Trees, stumps and bushes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Water Objects.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Water well.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/signs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/signs_sides.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/work station.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Player/Basic Charakter Actions.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Player/Basic Charakter Spritesheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Player/Character.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Player/Charakter Spritesheet and animations.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Player/Charakter Spritesheet and animations.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Player/Tools.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Player/water from water can frames and animations.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Player/water from wateringcan frames.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Sprout Lands color pallet/Sprout Lands defautlt palette snip.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Sprout Lands color pallet/Sprout Lands defautlt palette.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Sprout Lands color pallet/Sprout Lands defautlt palette.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/Buildings/Animal/Barn structures.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/Buildings/Animal/Chikcen_Houses.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/Buildings/Animal/Water tray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/Buildings/Basic_Furniture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/Buildings/Chest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/Buildings/Fence gates animation sprites .png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/Buildings/Fences.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/Buildings/Mailbox Animation Frames.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/Buildings/Paths.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/Buildings/STONE PATH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/Buildings/Stone_Path.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/Buildings/Wooden_Bridge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/Buildings/Wooden_Bridge_v2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/Buildings/Wooden_House_Roof_Tilset.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/Buildings/Wooden_House_Walls_Tilset.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/Buildings/door animation sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/Buildings/mailbox animation.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Bitmask references 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Bitmask references 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Bitmask references gif.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Bush_Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Darker_Grass_Hill_Tiles_Slopes_v2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Darker_Grass_Hills_Tiles_v2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Darker_Grass_Tile_Layers.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Darker_Grass_Tile_Layers2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Darker_Grass_Tiles_v2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Darker_Soil_Ground_Hills_Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Darker_Soil_Ground_Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Grass_Hill_Tiles_Slopes v.2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Grass_Hill_Tiles_v2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Grass_Tile_Layers.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Grass_Tile_layers2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Grass_Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Ground_Hill_Tiles_Slopes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Old tiles/Grass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Old tiles/Hills.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Old tiles/Tilled Dirt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Old tiles/Tilled_Dirt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Old tiles/Tilled_Dirt_Wide.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Old tiles/Tilled_Dirt_Wide_v2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Old tiles/Tilled_Dirt_v2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Soil_Ground_HiIls_Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Soil_Ground_Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Stone_Ground_Hills_Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Stone_Ground_Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/TILE LAYER EXAMPLE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/TILES PREVIEW v.2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/TILES PREVIEW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/Water.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Corner_NortWest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Corner_NorthEast.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Corner_SouthEast.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Corner_SouthWest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Edge_NorthEast.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Edge_NorthWest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Edge_SouthEast.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Edge_SouthWest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Flat_North.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Flat_South.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Flat_West.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Mid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Mid_Flowers1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Mid_Flowers2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Mid_Grass1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Mid_Grass2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Mid_Moss2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Mid_Moss3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Mid_Moss4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Mid_Sprouts1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Mid_Sprouts2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Mid_Sprouts3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Mid_Sprouts4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_mMid_Moss1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/simpel versions/Grass_tiles_v2_simple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/water frames/Water animation.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/water frames/Water.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/water frames/Water_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/water frames/Water_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/water frames/Water_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Tilesets/ground/water frames/Water_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/read_me.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/globals/Constants.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/globals/Constants.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/graphics/Animation.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/graphics/Animation.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/graphics/SpriteSheet.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/graphics/SpriteSheet.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/memory/RscManager.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/memory/RscManager.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/player/Player.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/player/Player.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/player/PlayerIdleState.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/player/PlayerIdleState.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/player/PlayerState.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/player/PlayerState.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/graphics/Animation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphics/Animation.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/memory/RscManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/memory/RscManager.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Player.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/PlayerIdleState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/PlayerIdleState.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/render/MasterRenderer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/render/MasterRenderer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/Island.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/Island.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,7 +202,7 @@
       <updated>1776443292066</updated>
       <workItem from="1776443293818" duration="13658000" />
       <workItem from="1776538501449" duration="18509000" />
-      <workItem from="1776595937399" duration="4427000" />
+      <workItem from="1776595937399" duration="7927000" />
     </task>
     <servers />
   </component>
@@ -402,15 +218,13 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/player/Player.cpp</url>
-          <line>49</line>
+          <line>51</line>
+          <properties>
+            <option name="hitCountValue" value="1" />
+          </properties>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/include/graphics/SpriteSheet.hpp</url>
-          <line>19</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

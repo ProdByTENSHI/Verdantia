@@ -29,5 +29,6 @@ void PlayerIdleState::OnExit(PlayerState& nextState)
 
 Animation* PlayerIdleState::GetAnimation()
 {
-    return PlayerState::GetAnimation();
+    Animation* anim = PlayerState::GetAnimation();
+    return anim;
 }

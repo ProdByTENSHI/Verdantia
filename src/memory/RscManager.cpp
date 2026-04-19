@@ -10,10 +10,7 @@ void RscManager::LoadAssets()
     // -- Load File
     std::ifstream file(ASSETS_MANIFEST_PATH);
     if (!file.is_open())
-    {
         throw std::runtime_error("Could not open Asset Manifest!");
-        return;
-    }
 
     json j;
     file >> j;
@@ -29,7 +26,7 @@ void RscManager::LoadAssets()
         u32 _internalId = LoadTex(_id, _path);
         m_TexStrToId.insert({_id, _internalId});
 
-        spdlog::info("Loaded Texture: {} : {}", _id, _path);
+        spdlog::info("Loaded Texture: {} : {}", _id, _internalId);
     }
 
     PopulateAssetBindings(RscType::Texture);
@@ -110,12 +107,14 @@ Animation* RscManager::GetAnimation(u32 id)
 u32 RscManager::LoadTex(const std::string& id, const std::string& path)
 {
     // Load Texture
+    u32 _id = m_TextureCache.size();
+
     Texture2D* texture = new Texture2D();
     *texture = LoadTexture(path.c_str());
 
     m_TextureCache.push_back(texture);
 
-    return m_TextureCache.size() - 1;
+    return _id;
 }
 
 u32 RscManager::LoadSpriteSheet(const std::string& id, u32 textureId, u32 fWidth, u32 fHeight)
@@ -125,7 +124,7 @@ u32 RscManager::LoadSpriteSheet(const std::string& id, u32 textureId, u32 fWidth
     SpriteSheet* spriteSheet = new SpriteSheet(_id, textureId, fWidth, fHeight);;
     m_SpriteSheetCache.push_back(spriteSheet);
 
-    spdlog::info("Loading Sprite Sheet {} : {}", id, _id);
+    spdlog::info("Loading Sprite Sheet {} : {} with Texture {}", id, _id, textureId);
 
     return _id;
 }

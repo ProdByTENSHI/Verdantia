@@ -20,6 +20,6 @@ struct Animation
     u32 m_CurrentFrame = 0;
 
 private:
-    Texture2D m_Texture;
+    u32 m_TextureId;
     f32 m_TimeSinceLastFrame = 0.0f;
 };

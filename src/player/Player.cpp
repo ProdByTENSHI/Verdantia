@@ -21,6 +21,8 @@ Player::Player(u32 id, const std::string& name) : Entity(id, "Player")
         Render();
     });
     OnRender += RenderHandler;
+
+    m_RenderLayer = RenderLayer::Entities;
 }
 
 Player::~Player()
