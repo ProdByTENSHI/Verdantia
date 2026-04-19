@@ -1,0 +1,21 @@
+# ninja log v7
+0	13	1776545156372915694	ldtkloader-populate-prefix/src/ldtkloader-populate-stamp/ldtkloader-populate-mkdir	3eecb4e051c8c5dd
+0	13	1776545156372915694	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-subbuild/ldtkloader-populate-prefix/src/ldtkloader-populate-stamp/ldtkloader-populate-mkdir	3eecb4e051c8c5dd
+13	1031	1776545157391936881	ldtkloader-populate-prefix/src/ldtkloader-populate-stamp/ldtkloader-populate-download	85d5e6b1dd0a34eb
+13	1031	1776545157391936881	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-subbuild/ldtkloader-populate-prefix/src/ldtkloader-populate-stamp/ldtkloader-populate-download	85d5e6b1dd0a34eb
+1031	1044	1776545157391936881	ldtkloader-populate-prefix/src/ldtkloader-populate-stamp/ldtkloader-populate-update	5f591838258982c7
+1031	1044	1776545157391936881	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-subbuild/ldtkloader-populate-prefix/src/ldtkloader-populate-stamp/ldtkloader-populate-update	5f591838258982c7
+1045	1058	1776545157418937442	ldtkloader-populate-prefix/src/ldtkloader-populate-stamp/ldtkloader-populate-patch	7a556c317b37b0f3
+1045	1058	1776545157418937442	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-subbuild/ldtkloader-populate-prefix/src/ldtkloader-populate-stamp/ldtkloader-populate-patch	7a556c317b37b0f3
+1058	1070	1776545157430937692	ldtkloader-populate-prefix/src/ldtkloader-populate-stamp/ldtkloader-populate-configure	ba4f387d18ec16ca
+1058	1070	1776545157430937692	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-subbuild/ldtkloader-populate-prefix/src/ldtkloader-populate-stamp/ldtkloader-populate-configure	ba4f387d18ec16ca
+1070	1084	1776545157444937983	ldtkloader-populate-prefix/src/ldtkloader-populate-stamp/ldtkloader-populate-build	a50e38fb7fb854a5
+1070	1084	1776545157444937983	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-subbuild/ldtkloader-populate-prefix/src/ldtkloader-populate-stamp/ldtkloader-populate-build	a50e38fb7fb854a5
+1084	1100	1776545157459938295	ldtkloader-populate-prefix/src/ldtkloader-populate-stamp/ldtkloader-populate-install	58a4b06de890a211
+1084	1100	1776545157459938295	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-subbuild/ldtkloader-populate-prefix/src/ldtkloader-populate-stamp/ldtkloader-populate-install	58a4b06de890a211
+1100	1114	1776545157473938586	ldtkloader-populate-prefix/src/ldtkloader-populate-stamp/ldtkloader-populate-test	c83a4479ad9c4da5
+1100	1114	1776545157473938586	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-subbuild/ldtkloader-populate-prefix/src/ldtkloader-populate-stamp/ldtkloader-populate-test	c83a4479ad9c4da5
+1114	1134	1776545157493939002	CMakeFiles/ldtkloader-populate-complete	ab2d56147f5ab0b6
+1114	1134	1776545157493939002	ldtkloader-populate-prefix/src/ldtkloader-populate-stamp/ldtkloader-populate-done	ab2d56147f5ab0b6
+1114	1134	1776545157493939002	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-subbuild/CMakeFiles/ldtkloader-populate-complete	ab2d56147f5ab0b6
+1114	1134	1776545157493939002	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-subbuild/ldtkloader-populate-prefix/src/ldtkloader-populate-stamp/ldtkloader-populate-done	ab2d56147f5ab0b6

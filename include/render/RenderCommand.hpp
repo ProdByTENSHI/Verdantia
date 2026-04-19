@@ -5,21 +5,19 @@
 
 // Holds all Data for Rendering something to the Screen
 struct RenderCommand {
-    u32 m_SpriteSheetId = 0;
-    Rectangle m_SourceRect = {0, 0, 0, 0};
+    u32 m_TextureId = 0;
+    Rectangle m_SrcRect;    // Pass w and h of texture for whole tex
     Vector2 m_Position  = {0, 0};
-    TextureType m_TextureType;
 
     // Used for std:: algorithms
     bool operator<(const RenderCommand &other) const noexcept {
-        return m_SpriteSheetId < other.m_SpriteSheetId;
+        return m_TextureId < other.m_TextureId;
     }
 
     RenderCommand& operator=(const RenderCommand& rhs) {
-        m_SpriteSheetId = rhs.m_SpriteSheetId;
-        m_SourceRect = rhs.m_SourceRect;
+        m_TextureId = rhs.m_TextureId;
+        m_SrcRect = rhs.m_SrcRect;
         m_Position  = rhs.m_Position;
-        m_TextureType = rhs.m_TextureType;
 
         return *this;
     }

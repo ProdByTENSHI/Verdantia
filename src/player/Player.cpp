@@ -4,42 +4,13 @@
 #include "globals/Globals.hpp"
 
 Player::Player(u32 id, const std::string &name) : Entity(id, "Player") {
-    m_SpriteSheet = g_RscManager->LoadSpriteSheet(TextureType::Player, "Character.png");
-    m_SpriteSheetTexture = *m_SpriteSheet->GetTexture();
-
-    AnimationUpdateEventHandler.SetFunction([this]() {
-        m_ShouldUpdateFrame = true;
-    });
-
-    RenderEventHandler.SetFunction([this]() {
-        Render();
-    });
-
-    OnAnimTick += AnimationUpdateEventHandler;
-    OnRender += RenderEventHandler;
-
     SetState(PlayerState::Walking);
 }
 
 Player::~Player() {
-    OnAnimTick -= AnimationUpdateEventHandler;
-    OnRender -= RenderEventHandler;
 }
 
 void Player::Update() {
-    // -- Update Frame
-    if (m_ShouldUpdateFrame) {
-        m_SourceRect = GetFrameRect();
-
-        if (m_CurrentFrame < MAX_ANIM_FRAME) {
-            ++m_CurrentFrame;
-        } else {
-            m_CurrentFrame = 0;
-        }
-
-        m_ShouldUpdateFrame = false;
-    }
-
     // -- Temporary Movement
     PlayerState _movementState = PlayerState::Walking;
     if (IsKeyDown(KEY_LEFT_SHIFT)) {
@@ -96,68 +67,15 @@ void Player::Move(Vector2 movement, PlayerState state) {
 }
 
 RenderCommand Player::CreateRenderCommand() {
-    RenderCommand _command;
+    RenderCommand _cmd;
 
-    _command.m_SpriteSheetId = m_SpriteSheet->m_Id;
-    _command.m_SourceRect = m_SourceRect;
-    _command.m_Position = m_Position;
-    _command.m_TextureType = TextureType::Player;
-
-    return _command;
+    return _cmd;
 }
 
 void Player::Render() {
     g_MasterRenderer->PushRenderCommand(m_RenderLayer, CreateRenderCommand());
 }
 
-Rectangle Player::GetFrameRect() const {
-    Rectangle _rect{0, 0, PLAYER_SPRITE_SIZE, PLAYER_SPRITE_SIZE};
-
-    // Directions Order are same for all Moves: Down, Up, Right, Left
-    // Use this to calculate correct direction Row
-    u32 _dirOffsetFromAction = 0;
-    if (m_FacingDirection == UP_DIR) {
-        ++_dirOffsetFromAction;
-    } else if (m_FacingDirection == RIGHT_DIR) {
-        _dirOffsetFromAction += 2;
-    } else if (m_FacingDirection == LEFT_DIR) {
-        _dirOffsetFromAction += 3;
-    }
-
-    switch (m_State) {
-        case PlayerState::Idle:
-            _rect.y = IDLE_SPRITE_INDEX + _dirOffsetFromAction;
-            break;
-
-        case PlayerState::Walking:
-            _rect.y = WALKING_SPRITE_INDEX + _dirOffsetFromAction;
-            break;
-
-        case PlayerState::Running:
-            _rect.y = RUNNING_SPRITE_INDEX + _dirOffsetFromAction;
-            break;
-
-        case PlayerState::Use_Hoe:
-            _rect.y = USE_HOE_SPRITE_INDEX + _dirOffsetFromAction;
-            break;
-
-        case PlayerState::Use_Watercan:
-            _rect.y = USE_WATERCAN_SPRITE_INDEX + _dirOffsetFromAction;
-            break;
-
-        case PlayerState::Use_Pickaxe:
-            _rect.y = USE_PICKAXE_SPRITE_INDEX + _dirOffsetFromAction;
-            break;
-    }
-
-    _rect.x = m_CurrentFrame * PLAYER_SPRITE_SIZE;
-    _rect.y = _rect.y * PLAYER_SPRITE_SIZE;
-
-    return _rect;
-}
-
 void Player::SetState(PlayerState state) {
     m_State = state;
-    m_CurrentFrame = 0;
-    m_ShouldUpdateFrame = true;
 }

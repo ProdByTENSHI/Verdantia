@@ -1,0 +1,21 @@
+# ninja log v7
+1	15	1776545122640216488	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	5938560b0d1c7ace
+1	15	1776545122640216488	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	5938560b0d1c7ace
+15	29963	1776545152585836986	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	ebf72dee92d2450b
+15	29963	1776545152585836986	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	ebf72dee92d2450b
+29963	29980	1776545152587837028	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	1f311c3af55f16ac
+29963	29980	1776545152587837028	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	1f311c3af55f16ac
+29980	29996	1776545152619837693	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	db904640beffa417
+29980	29996	1776545152619837693	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	db904640beffa417
+29996	30013	1776545152636838046	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	53927ad077d97cf4
+29996	30013	1776545152636838046	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	53927ad077d97cf4
+30013	30028	1776545152652838378	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	11e94b3452b0a988
+30013	30028	1776545152652838378	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	11e94b3452b0a988
+30028	30043	1776545152666838669	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	a0a371fef281fb71
+30028	30043	1776545152666838669	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	a0a371fef281fb71
+30043	30057	1776545152681838981	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	5380a299af792ffd
+30043	30057	1776545152681838981	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	5380a299af792ffd
+30057	30077	1776545152701839396	CMakeFiles/raylib-populate-complete	b4cf3e55385f8095
+30057	30077	1776545152701839396	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	b4cf3e55385f8095
+30057	30077	1776545152701839396	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete	b4cf3e55385f8095
+30057	30077	1776545152701839396	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	b4cf3e55385f8095

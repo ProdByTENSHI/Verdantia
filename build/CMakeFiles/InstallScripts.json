@@ -1,0 +1,18 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/leon/Schreibtisch/Dev/Games/Verdantia/build/cmake_install.cmake",
+		"/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/cmake_install.cmake",
+		"/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/cmake_install.cmake",
+		"/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/cmake_install.cmake",
+		"/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/cmake_install.cmake",
+		"/home/leon/Schreibtisch/Dev/Games/Verdantia/build/raygui/cmake_install.cmake",
+		"/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/cmake_install.cmake",
+		"/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/cmake_install.cmake",
+		"/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/cmake_install.cmake",
+		"/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-build/cmake_install.cmake",
+		"/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-build/cmake_install.cmake",
+		"/home/leon/Schreibtisch/Dev/Games/Verdantia/build/include/tenshiUtil/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

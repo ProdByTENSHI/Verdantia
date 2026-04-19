@@ -1,0 +1,21 @@
+# ninja log v7
+1	11	1776545162390040854	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir	ef5c1da979a5d296
+1	11	1776545162390040854	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir	ef5c1da979a5d296
+11	1078	1776545163456063042	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download	1efffde96aea9caf
+11	1078	1776545163456063042	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download	1efffde96aea9caf
+1078	1094	1776545163457063063	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update	772ff9d159790984
+1078	1094	1776545163457063063	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update	772ff9d159790984
+1094	1107	1776545163485063646	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch	43fece8c471371fe
+1094	1107	1776545163485063646	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch	43fece8c471371fe
+1107	1121	1776545163499063937	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure	effb7ebdd774fecb
+1107	1121	1776545163499063937	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure	effb7ebdd774fecb
+1121	1138	1776545163516064291	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build	5917966eed5110d3
+1121	1138	1776545163516064291	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build	5917966eed5110d3
+1138	1153	1776545163532064624	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install	cb3e5294ee6124ea
+1138	1153	1776545163532064624	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install	cb3e5294ee6124ea
+1153	1169	1776545163547064936	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test	fe205761ae55c1f2
+1153	1169	1776545163547064936	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test	fe205761ae55c1f2
+1169	1189	1776545163568065373	CMakeFiles/spdlog-populate-complete	9b2d17217308fb8c
+1169	1189	1776545163568065373	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-done	9b2d17217308fb8c
+1169	1189	1776545163568065373	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate-complete	9b2d17217308fb8c
+1169	1189	1776545163568065373	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-done	9b2d17217308fb8c

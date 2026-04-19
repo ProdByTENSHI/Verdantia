@@ -20,6 +20,7 @@ public:
 
 private:
     void StageRenderCmdBuffers();
+    void RenderDrawCommandBuffer(const std::vector<RenderCommand>& buffer) const;
 
     std::vector<RenderCommand> &GetCommandBufferByLayer(RenderLayer layer);
 

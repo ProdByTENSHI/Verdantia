@@ -8,9 +8,6 @@
 #include "tenshiUtil/math/Random.h"
 #include "globals/Events.hpp"
 
-SpriteSheet *grasslandTexture;
-SpriteSheet *waterTexture;
-
 Island *island = nullptr;
 
 void GenerateIsland() {
@@ -22,11 +19,12 @@ Game::Game() {
     InitWindow(g_WindowWidth, g_WindowHeight, "Verdantia");
     SetTargetFPS(60);
 
-    ToggleFullscreen();
-    g_WindowWidth = 1920;
-    g_WindowHeight = 1080;
+    // ToggleFullscreen();
+    // g_WindowWidth = 1920;
+    // g_WindowHeight = 1080;
 
     g_RscManager = std::make_unique<RscManager>();
+    g_RscManager->LoadAssets();
     g_EntityManager = std::make_unique<EntityManager>();
     g_WorldGenerator = std::make_unique<WorldGenerator>(1337);
     g_MasterRenderer = std::make_unique<MasterRenderer>();
@@ -35,9 +33,6 @@ Game::Game() {
     // == DEBUG
     g_WorldGenerator->GenerateWorld();
     GenerateIsland();
-
-    grasslandTexture = g_RscManager->LoadSpriteSheet(TextureType::GroundTile, "Grass_Tiles.png");
-    waterTexture = g_RscManager->LoadSpriteSheet(TextureType::GroundTile, "Water.png");
     // ========
 
     m_Player = g_EntityManager->CreateEntity<Player>();

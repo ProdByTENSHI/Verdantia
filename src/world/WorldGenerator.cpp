@@ -105,10 +105,6 @@ Island *WorldGenerator::GenerateIsland(Vector2Int size, Vector2 pos) {
             tiles[x][y].m_NeighbourMask = _mask;
             Vector2Int _index = GetSpriteFromTileMask(_mask);
             tiles[x][y].m_SpriteSheetIndex = _index;
-            if (_mask % 2 != 0) {
-                std::cout << "Index of Tile " << MaskToStr(_mask) << " "
-                        << _index.x << " " << _index.y << std::endl;
-            }
         }
     }
 

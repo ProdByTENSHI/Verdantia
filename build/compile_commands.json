@@ -1,0 +1,656 @@
+[
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -DASSETS_PATH=\\\"/home/leon/Schreibtisch/Dev/Games/Verdantia/assets/\\\" -DCMAKE_BUILD_TYPE=Debug -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DSPDLOG_COMPILED_LIB -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include/tenshiUtil -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raygui-src/projects/CMake/../../src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/include  -O0 -DDEBUG -Wall -g -std=gnu++20 -w -o CMakeFiles/Verdantia.dir/src/Main.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/src/Main.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/src/Main.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/CMakeFiles/Verdantia.dir/src/Main.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -DASSETS_PATH=\\\"/home/leon/Schreibtisch/Dev/Games/Verdantia/assets/\\\" -DCMAKE_BUILD_TYPE=Debug -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DSPDLOG_COMPILED_LIB -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include/tenshiUtil -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raygui-src/projects/CMake/../../src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/include  -O0 -DDEBUG -Wall -g -std=gnu++20 -w -o CMakeFiles/Verdantia.dir/src/core/Game.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/src/core/Game.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/src/core/Game.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/CMakeFiles/Verdantia.dir/src/core/Game.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -DASSETS_PATH=\\\"/home/leon/Schreibtisch/Dev/Games/Verdantia/assets/\\\" -DCMAKE_BUILD_TYPE=Debug -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DSPDLOG_COMPILED_LIB -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include/tenshiUtil -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raygui-src/projects/CMake/../../src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/include  -O0 -DDEBUG -Wall -g -std=gnu++20 -w -o CMakeFiles/Verdantia.dir/src/entities/EntityManager.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/src/entities/EntityManager.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/src/entities/EntityManager.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/CMakeFiles/Verdantia.dir/src/entities/EntityManager.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -DASSETS_PATH=\\\"/home/leon/Schreibtisch/Dev/Games/Verdantia/assets/\\\" -DCMAKE_BUILD_TYPE=Debug -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DSPDLOG_COMPILED_LIB -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include/tenshiUtil -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raygui-src/projects/CMake/../../src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/include  -O0 -DDEBUG -Wall -g -std=gnu++20 -w -o CMakeFiles/Verdantia.dir/src/entities/Tree.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/src/entities/Tree.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/src/entities/Tree.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/CMakeFiles/Verdantia.dir/src/entities/Tree.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -DASSETS_PATH=\\\"/home/leon/Schreibtisch/Dev/Games/Verdantia/assets/\\\" -DCMAKE_BUILD_TYPE=Debug -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DSPDLOG_COMPILED_LIB -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include/tenshiUtil -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raygui-src/projects/CMake/../../src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/include  -O0 -DDEBUG -Wall -g -std=gnu++20 -w -o CMakeFiles/Verdantia.dir/src/graphics/SpriteSheet.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/src/graphics/SpriteSheet.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/src/graphics/SpriteSheet.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/CMakeFiles/Verdantia.dir/src/graphics/SpriteSheet.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -DASSETS_PATH=\\\"/home/leon/Schreibtisch/Dev/Games/Verdantia/assets/\\\" -DCMAKE_BUILD_TYPE=Debug -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DSPDLOG_COMPILED_LIB -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include/tenshiUtil -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raygui-src/projects/CMake/../../src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/include  -O0 -DDEBUG -Wall -g -std=gnu++20 -w -o CMakeFiles/Verdantia.dir/src/memory/RscManager.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/src/memory/RscManager.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/src/memory/RscManager.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/CMakeFiles/Verdantia.dir/src/memory/RscManager.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -DASSETS_PATH=\\\"/home/leon/Schreibtisch/Dev/Games/Verdantia/assets/\\\" -DCMAKE_BUILD_TYPE=Debug -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DSPDLOG_COMPILED_LIB -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include/tenshiUtil -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raygui-src/projects/CMake/../../src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/include  -O0 -DDEBUG -Wall -g -std=gnu++20 -w -o CMakeFiles/Verdantia.dir/src/player/Player.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/src/player/Player.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/src/player/Player.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/CMakeFiles/Verdantia.dir/src/player/Player.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -DASSETS_PATH=\\\"/home/leon/Schreibtisch/Dev/Games/Verdantia/assets/\\\" -DCMAKE_BUILD_TYPE=Debug -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DSPDLOG_COMPILED_LIB -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include/tenshiUtil -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raygui-src/projects/CMake/../../src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/include  -O0 -DDEBUG -Wall -g -std=gnu++20 -w -o CMakeFiles/Verdantia.dir/src/render/MasterRenderer.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/src/render/MasterRenderer.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/src/render/MasterRenderer.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/CMakeFiles/Verdantia.dir/src/render/MasterRenderer.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -DASSETS_PATH=\\\"/home/leon/Schreibtisch/Dev/Games/Verdantia/assets/\\\" -DCMAKE_BUILD_TYPE=Debug -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DSPDLOG_COMPILED_LIB -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include/tenshiUtil -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raygui-src/projects/CMake/../../src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/include  -O0 -DDEBUG -Wall -g -std=gnu++20 -w -o CMakeFiles/Verdantia.dir/src/render/VerdantiaCamera.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/src/render/VerdantiaCamera.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/src/render/VerdantiaCamera.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/CMakeFiles/Verdantia.dir/src/render/VerdantiaCamera.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -DASSETS_PATH=\\\"/home/leon/Schreibtisch/Dev/Games/Verdantia/assets/\\\" -DCMAKE_BUILD_TYPE=Debug -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DSPDLOG_COMPILED_LIB -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include/tenshiUtil -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raygui-src/projects/CMake/../../src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/include  -O0 -DDEBUG -Wall -g -std=gnu++20 -w -o CMakeFiles/Verdantia.dir/src/world/Island.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/src/world/Island.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/src/world/Island.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/CMakeFiles/Verdantia.dir/src/world/Island.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -DASSETS_PATH=\\\"/home/leon/Schreibtisch/Dev/Games/Verdantia/assets/\\\" -DCMAKE_BUILD_TYPE=Debug -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DSPDLOG_COMPILED_LIB -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/include/tenshiUtil -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raygui-src/projects/CMake/../../src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/include  -O0 -DDEBUG -Wall -g -std=gnu++20 -w -o CMakeFiles/Verdantia.dir/src/world/WorldGenerator.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/src/world/WorldGenerator.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/src/world/WorldGenerator.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/CMakeFiles/Verdantia.dir/src/world/WorldGenerator.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src -isystem /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -w -o _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/raudio.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/raudio.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src -isystem /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -w -o _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/rcore.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/rcore.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src -isystem /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -w -o _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/rmodels.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/rmodels.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src -isystem /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -w -o _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/rshapes.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/rshapes.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src -isystem /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -w -o _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/rtext.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/rtext.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src -isystem /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -w -o _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/rtextures.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/rtextures.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src -isystem /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -w -o _deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/utils.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/utils.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/context.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/context.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/init.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/init.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/input.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/input.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/monitor.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/monitor.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/platform.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/platform.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/vulkan.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/vulkan.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/window.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/window.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/egl_context.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/egl_context.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/osmesa_context.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/osmesa_context.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/null_init.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/null_init.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/null_monitor.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/null_monitor.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/null_window.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/null_window.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/null_joystick.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/null_joystick.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/posix_module.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/posix_module.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/posix_time.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/posix_time.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/posix_thread.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/posix_thread.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/x11_init.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/x11_init.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/x11_monitor.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/x11_monitor.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/x11_window.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/x11_window.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/xkb_unicode.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/xkb_unicode.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/glx_context.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/glx_context.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/linux_joystick.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/linux_joystick.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall -o _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/posix_poll.c",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-src/src/external/glfw/src/posix_poll.c",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -g -std=gnu++11 -w -o _deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/DataTypes.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/DataTypes.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/DataTypes.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/DataTypes.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -g -std=gnu++11 -w -o _deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/Entity.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/Entity.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/Entity.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/Entity.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -g -std=gnu++11 -w -o _deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/EntityDef.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/EntityDef.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/EntityDef.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/EntityDef.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -g -std=gnu++11 -w -o _deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/Enum.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/Enum.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/Enum.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/Enum.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -g -std=gnu++11 -w -o _deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/FieldsContainer.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/FieldsContainer.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/FieldsContainer.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/FieldsContainer.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -g -std=gnu++11 -w -o _deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/Layer.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/Layer.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/Layer.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/Layer.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -g -std=gnu++11 -w -o _deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/LayerDef.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/LayerDef.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/LayerDef.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/LayerDef.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -g -std=gnu++11 -w -o _deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/Level.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/Level.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/Level.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/Level.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -g -std=gnu++11 -w -o _deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/Project.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/Project.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/Project.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/Project.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -g -std=gnu++11 -w -o _deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/TagsContainer.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/TagsContainer.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/TagsContainer.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/TagsContainer.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -g -std=gnu++11 -w -o _deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/Tile.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/Tile.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/Tile.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/Tile.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -g -std=gnu++11 -w -o _deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/Tileset.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/Tileset.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/Tileset.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/Tileset.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -g -std=gnu++11 -w -o _deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/Utils.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/Utils.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/Utils.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/Utils.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/include -g -std=gnu++11 -w -o _deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/World.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/World.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-src/src/World.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/ldtkloader-build/CMakeFiles/LDtkLoader.dir/src/World.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_broad_phase.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_broad_phase.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_broad_phase.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_broad_phase.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_chain_shape.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_chain_shape.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_chain_shape.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_chain_shape.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_circle_shape.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_circle_shape.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_circle_shape.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_circle_shape.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_collide_circle.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_collide_circle.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_collide_circle.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_collide_circle.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_collide_edge.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_collide_edge.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_collide_edge.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_collide_edge.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_collide_polygon.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_collide_polygon.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_collide_polygon.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_collide_polygon.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_collision.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_collision.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_collision.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_collision.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_distance.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_distance.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_distance.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_distance.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_dynamic_tree.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_dynamic_tree.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_dynamic_tree.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_dynamic_tree.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_edge_shape.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_edge_shape.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_edge_shape.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_edge_shape.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_polygon_shape.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_polygon_shape.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_polygon_shape.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_polygon_shape.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_time_of_impact.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_time_of_impact.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/collision/b2_time_of_impact.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/collision/b2_time_of_impact.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/common/b2_block_allocator.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/common/b2_block_allocator.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/common/b2_block_allocator.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/common/b2_block_allocator.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/common/b2_draw.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/common/b2_draw.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/common/b2_draw.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/common/b2_draw.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/common/b2_math.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/common/b2_math.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/common/b2_math.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/common/b2_math.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/common/b2_settings.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/common/b2_settings.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/common/b2_settings.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/common/b2_settings.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/common/b2_stack_allocator.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/common/b2_stack_allocator.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/common/b2_stack_allocator.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/common/b2_stack_allocator.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/common/b2_timer.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/common/b2_timer.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/common/b2_timer.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/common/b2_timer.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_body.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_body.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_body.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_body.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_chain_circle_contact.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_chain_circle_contact.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_chain_circle_contact.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_chain_circle_contact.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_chain_polygon_contact.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_chain_polygon_contact.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_chain_polygon_contact.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_chain_polygon_contact.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_circle_contact.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_circle_contact.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_circle_contact.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_circle_contact.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_contact.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_contact.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_contact.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_contact.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_contact_manager.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_contact_manager.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_contact_manager.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_contact_manager.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_contact_solver.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_contact_solver.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_contact_solver.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_contact_solver.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_distance_joint.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_distance_joint.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_distance_joint.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_distance_joint.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_edge_circle_contact.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_edge_circle_contact.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_edge_circle_contact.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_edge_circle_contact.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_edge_polygon_contact.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_edge_polygon_contact.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_edge_polygon_contact.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_edge_polygon_contact.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_fixture.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_fixture.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_fixture.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_fixture.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_friction_joint.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_friction_joint.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_friction_joint.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_friction_joint.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_gear_joint.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_gear_joint.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_gear_joint.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_gear_joint.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_island.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_island.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_island.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_island.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_joint.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_joint.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_joint.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_joint.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_motor_joint.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_motor_joint.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_motor_joint.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_motor_joint.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_mouse_joint.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_mouse_joint.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_mouse_joint.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_mouse_joint.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_polygon_circle_contact.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_polygon_circle_contact.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_polygon_circle_contact.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_polygon_circle_contact.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_polygon_contact.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_polygon_contact.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_polygon_contact.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_polygon_contact.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_prismatic_joint.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_prismatic_joint.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_prismatic_joint.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_prismatic_joint.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_pulley_joint.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_pulley_joint.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_pulley_joint.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_pulley_joint.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_revolute_joint.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_revolute_joint.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_revolute_joint.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_revolute_joint.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_weld_joint.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_weld_joint.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_weld_joint.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_weld_joint.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_wheel_joint.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_wheel_joint.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_wheel_joint.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_wheel_joint.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_world.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_world.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_world.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_world.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_world_callbacks.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_world_callbacks.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/dynamics/b2_world_callbacks.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamics/b2_world_callbacks.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/../include -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src -g -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -o _deps/box2d-build/src/CMakeFiles/box2d.dir/rope/b2_rope.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/rope/b2_rope.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-src/src/rope/b2_rope.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/box2d-build/src/CMakeFiles/box2d.dir/rope/b2_rope.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-src/include -g -std=gnu++20 -w -o _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-src/src/format.cc",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-src/src/format.cc",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-src/include -g -std=gnu++20 -w -o _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-src/src/os.cc",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-src/src/os.cc",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/include -g -std=c++20 -w -o _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/src/spdlog.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/src/spdlog.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/include -g -std=c++20 -w -o _deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/src/stdout_sinks.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/src/stdout_sinks.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/include -g -std=c++20 -w -o _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/src/color_sinks.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/src/color_sinks.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/include -g -std=c++20 -w -o _deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/src/file_sinks.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/src/file_sinks.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/include -g -std=c++20 -w -o _deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/src/async.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/src/async.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/include -g -std=c++20 -w -o _deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/src/cfg.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/src/cfg.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.o"
+},
+{
+  "directory": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/include -g -std=c++20 -w -o _deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o -c /home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
+  "file": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
+  "output": "/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o"
+}
+]

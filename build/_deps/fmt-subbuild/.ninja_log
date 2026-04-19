@@ -1,0 +1,21 @@
+# ninja log v7
+1	13	1776545160215995617	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-mkdir	bf2efb20444310a
+1	13	1776545160215995617	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-mkdir	bf2efb20444310a
+13	2021	1776545162223037379	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-download	7e9ed4b0cda4ee5b
+13	2021	1776545162223037379	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-download	7e9ed4b0cda4ee5b
+2021	2035	1776545162224037400	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update	3df0b49a0b16f2b1
+2021	2035	1776545162224037400	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update	3df0b49a0b16f2b1
+2035	2046	1776545162249037920	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch	8ad88d049d57fc3
+2035	2046	1776545162249037920	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch	8ad88d049d57fc3
+2046	2061	1776545162263038211	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure	6bc56608f7c44e0f
+2046	2061	1776545162263038211	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure	6bc56608f7c44e0f
+2061	2074	1776545162276038482	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build	d5ae0164847fbbfc
+2061	2074	1776545162276038482	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build	d5ae0164847fbbfc
+2074	2087	1776545162289038752	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install	db8409e6d781edd8
+2074	2087	1776545162289038752	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install	db8409e6d781edd8
+2087	2098	1776545162300038981	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test	a7d061bbf6c474ae
+2087	2098	1776545162300038981	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test	a7d061bbf6c474ae
+2098	2118	1776545162320039397	CMakeFiles/fmt-populate-complete	cf13510fb647797
+2098	2118	1776545162320039397	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-done	cf13510fb647797
+2098	2118	1776545162320039397	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-subbuild/CMakeFiles/fmt-populate-complete	cf13510fb647797
+2098	2118	1776545162320039397	/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-done	cf13510fb647797

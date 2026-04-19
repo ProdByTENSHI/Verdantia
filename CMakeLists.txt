@@ -29,7 +29,7 @@ add_git_dependency(
         https://github.com/raysan5/raylib.git
         5.5
 )
-# Special handling for raygui since its CMakeLists.txt is not at the root of the repo
+# Special handling for raygui since its CMakeLists.txt is not at the root of the repo t
 set(BUILD_RAYGUI_EXAMPLES OFF CACHE BOOL "" FORCE)
 FetchContent_Declare(raygui
         GIT_REPOSITORY https://github.com/raysan5/raygui.git

@@ -1,0 +1,1089 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "Fontconfig::Fontconfig::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-Fontconfig__Fontconfig-Debug-34badee6345b8405fc00.json",
+					"name" : "Fontconfig::Fontconfig",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Freetype::Freetype::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-Freetype__Freetype-Debug-00ecd840c1f32dc6e80a.json",
+					"name" : "Freetype::Freetype",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Git::Git::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Git__Git-Debug-55ad6c27f300283b3b1c.json",
+					"name" : "Git::Git",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "OpenGL::EGL::@4dc3a4644cf4ded08c01",
+					"jsonFile" : "target-OpenGL__EGL-Debug-191f71e5d5c29e2c509e.json",
+					"name" : "OpenGL::EGL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "OpenGL::GL::@4dc3a4644cf4ded08c01",
+					"jsonFile" : "target-OpenGL__GL-Debug-3791562e8f6c2331567f.json",
+					"name" : "OpenGL::GL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "OpenGL::GLES2::@4dc3a4644cf4ded08c01",
+					"jsonFile" : "target-OpenGL__GLES2-Debug-5f4d52830975e252aaf3.json",
+					"name" : "OpenGL::GLES2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "OpenGL::GLES3::@4dc3a4644cf4ded08c01",
+					"jsonFile" : "target-OpenGL__GLES3-Debug-3290147d007e95c2d327.json",
+					"name" : "OpenGL::GLES3",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "OpenGL::GLX::@4dc3a4644cf4ded08c01",
+					"jsonFile" : "target-OpenGL__GLX-Debug-94c57616a759b7503646.json",
+					"name" : "OpenGL::GLX",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "OpenGL::OpenGL::@4dc3a4644cf4ded08c01",
+					"jsonFile" : "target-OpenGL__OpenGL-Debug-a3418b8c3a1115e3e3a5.json",
+					"name" : "OpenGL::OpenGL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Threads::Threads::@abb1d9e801b084c7b6bd",
+					"jsonFile" : "target-Threads__Threads-Debug-d85d8ff1bb8833e64b44.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "Threads::Threads::@eb35cfce7893ccfeff1e",
+					"jsonFile" : "target-Threads__Threads-Debug-5102916ca95f32a5af3a.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::ICE::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__ICE-Debug-5bbbfbb1b742f6321c6c.json",
+					"name" : "X11::ICE",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::SM::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__SM-Debug-ff4013f7bb28e13f5fce.json",
+					"name" : "X11::SM",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::X11::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__X11-Debug-d3fb847735650ccd12d6.json",
+					"name" : "X11::X11",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::X11_xcb::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__X11_xcb-Debug-7256e190326a9ce43254.json",
+					"name" : "X11::X11_xcb",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::Xau::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__Xau-Debug-625e56248e6a563e83f7.json",
+					"name" : "X11::Xau",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::Xcomposite::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__Xcomposite-Debug-972d358835ef21d8d12f.json",
+					"name" : "X11::Xcomposite",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::Xcursor::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__Xcursor-Debug-d38285e97c2644d84696.json",
+					"name" : "X11::Xcursor",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::Xdamage::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__Xdamage-Debug-05d7a7594bcf2ddc763b.json",
+					"name" : "X11::Xdamage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::Xdmcp::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__Xdmcp-Debug-2e0a5747ded172fffe08.json",
+					"name" : "X11::Xdmcp",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::Xext::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__Xext-Debug-1fb56497f65b05c53536.json",
+					"name" : "X11::Xext",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::Xfixes::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__Xfixes-Debug-b12f01ab9bda7771ea5b.json",
+					"name" : "X11::Xfixes",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::Xft::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__Xft-Debug-08bf5aa2aa013b87d398.json",
+					"name" : "X11::Xft",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::Xi::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__Xi-Debug-1e4344eb34398fed64de.json",
+					"name" : "X11::Xi",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::Xinerama::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__Xinerama-Debug-f3011da114bad80e5888.json",
+					"name" : "X11::Xinerama",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::Xkb::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__Xkb-Debug-0402af24e75305c76515.json",
+					"name" : "X11::Xkb",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::Xpm::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__Xpm-Debug-3becb588bae25e5892de.json",
+					"name" : "X11::Xpm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::Xrandr::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__Xrandr-Debug-f30307e8c9ac314bd993.json",
+					"name" : "X11::Xrandr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::Xrender::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__Xrender-Debug-3de00f6b744c9a92b98d.json",
+					"name" : "X11::Xrender",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::Xss::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__Xss-Debug-24dfe92d3e9e4dfb9316.json",
+					"name" : "X11::Xss",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::Xt::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__Xt-Debug-3b25d0f2639b5b43936b.json",
+					"name" : "X11::Xt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::Xtst::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__Xtst-Debug-4b727d3f28943c0d1b5d.json",
+					"name" : "X11::Xtst",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::Xutil::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__Xutil-Debug-53011e9cfd173015b5c2.json",
+					"name" : "X11::Xutil",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::Xv::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__Xv-Debug-c909e96c5a49f24dcffd.json",
+					"name" : "X11::Xv",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::Xxf86vm::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__Xxf86vm-Debug-9812f91ff1f40370bfb9.json",
+					"name" : "X11::Xxf86vm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb-Debug-f6c6f4918e0dd95dc80a.json",
+					"name" : "X11::xcb",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_composite::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_composite-Debug-37d87a3e7d0479e4f1c0.json",
+					"name" : "X11::xcb_composite",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_cursor::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_cursor-Debug-3667b8c5a67b7096fc05.json",
+					"name" : "X11::xcb_cursor",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_damage::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_damage-Debug-89e0a2809c6343a6f82e.json",
+					"name" : "X11::xcb_damage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_dpms::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_dpms-Debug-2a2855950a1b5e3e04d8.json",
+					"name" : "X11::xcb_dpms",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_dri2::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_dri2-Debug-61aed7374a85d2b84aaf.json",
+					"name" : "X11::xcb_dri2",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_dri3::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_dri3-Debug-d5210f881e8043958c88.json",
+					"name" : "X11::xcb_dri3",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_ewmh::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_ewmh-Debug-425c12c66b21da237cd3.json",
+					"name" : "X11::xcb_ewmh",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_glx::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_glx-Debug-1f70353f351c5a5636d7.json",
+					"name" : "X11::xcb_glx",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_icccm::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_icccm-Debug-3408a6219cede557f5be.json",
+					"name" : "X11::xcb_icccm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_image::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_image-Debug-4e6d4c1f5903baba238f.json",
+					"name" : "X11::xcb_image",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_keysyms::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_keysyms-Debug-d7176b28dfdbc34de1ba.json",
+					"name" : "X11::xcb_keysyms",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_present::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_present-Debug-0dd75bb604d903e8ed6b.json",
+					"name" : "X11::xcb_present",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_randr::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_randr-Debug-a18c64f1bd72cdb95677.json",
+					"name" : "X11::xcb_randr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_record::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_record-Debug-1ad09f0484e045ac88fb.json",
+					"name" : "X11::xcb_record",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_render::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_render-Debug-b0912d4b2d989c1a7df2.json",
+					"name" : "X11::xcb_render",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_render_util::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_render_util-Debug-b2e4d6ce011d147fc3d0.json",
+					"name" : "X11::xcb_render_util",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_res::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_res-Debug-6b6e34eca11282ed5724.json",
+					"name" : "X11::xcb_res",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_screensaver::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_screensaver-Debug-8898c142282fc88c4c5d.json",
+					"name" : "X11::xcb_screensaver",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_shape::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_shape-Debug-7b99ee222eccdedca119.json",
+					"name" : "X11::xcb_shape",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_shm::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_shm-Debug-b70ddac2f193d82f6157.json",
+					"name" : "X11::xcb_shm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_sync::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_sync-Debug-984bc33ac2b657125f7d.json",
+					"name" : "X11::xcb_sync",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_util::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_util-Debug-aee42d8795b886d21421.json",
+					"name" : "X11::xcb_util",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_xf86dri::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_xf86dri-Debug-4ab640c134f8b25a78d4.json",
+					"name" : "X11::xcb_xf86dri",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_xfixes::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_xfixes-Debug-b33ed76e0d68920ce58b.json",
+					"name" : "X11::xcb_xfixes",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_xinerama::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_xinerama-Debug-8a411e72ace9921d5e4f.json",
+					"name" : "X11::xcb_xinerama",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_xinput::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_xinput-Debug-85177699743a4710fb52.json",
+					"name" : "X11::xcb_xinput",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_xkb::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_xkb-Debug-97d91214f16d7fb98c9b.json",
+					"name" : "X11::xcb_xkb",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_xtest::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_xtest-Debug-c2f6f05e3ba1dffe309f.json",
+					"name" : "X11::xcb_xtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_xv::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_xv-Debug-36fe398d74e772410f2a.json",
+					"name" : "X11::xcb_xv",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xcb_xvmc::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xcb_xvmc-Debug-1a6e419278037ae80a59.json",
+					"name" : "X11::xcb_xvmc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xkbcommon::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xkbcommon-Debug-95bed52b826b3d57ad11.json",
+					"name" : "X11::xkbcommon",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xkbcommon_X11::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xkbcommon_X11-Debug-309934f7a38c21b87ee4.json",
+					"name" : "X11::xkbcommon_X11",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "X11::xkbfile::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-X11__xkbfile-Debug-abafb6de00089c37ae9c.json",
+					"name" : "X11::xkbfile",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "fmt-header-only::@976f4f0bee90b99ecdb6",
+					"jsonFile" : "target-fmt-header-only-Debug-2c8761fda4c8e329f3b6.json",
+					"name" : "fmt-header-only",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "raygui::@8ae595dd5d1ab7520be4",
+					"jsonFile" : "target-raygui-Debug-5ac6780d41cd965a88b9.json",
+					"name" : "raygui",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "spdlog_header_only::@eb35cfce7893ccfeff1e",
+					"jsonFile" : "target-spdlog_header_only-Debug-3d7fe3f53f98eeaa51ef.json",
+					"name" : "spdlog_header_only",
+					"projectIndex" : 7
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						2
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						5,
+						6,
+						7,
+						9,
+						10,
+						11
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-fd6451d79dc282e2f566.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/raylib-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.raylib-build-Debug-5a8bc835fee802fe028b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/raylib-src",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"build" : "_deps/raylib-build/raylib",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.raylib-build.raylib-Debug-6f50b942a06033ae0d53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/raylib-src/src",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						9
+					],
+					"build" : "_deps/raylib-build/raylib/external/glfw",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-_deps.raylib-build.raylib.external.glfw-Debug-e66a1f0d9d330e78e266.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "build/_deps/raylib-src/src/external/glfw"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68
+					],
+					"build" : "_deps/raylib-build/raylib/external/glfw/src",
+					"jsonFile" : "directory-_deps.raylib-build.raylib.external.glfw.src-Debug-3e8ea77c196a7caa9d84.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "build/_deps/raylib-src/src/external/glfw/src",
+					"targetIndexes" : 
+					[
+						4,
+						8
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						70
+					],
+					"build" : "raygui",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-raygui-Debug-603a03250c4cfafe3f1f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "build/_deps/raygui-src/projects/CMake"
+				},
+				{
+					"build" : "_deps/ldtkloader-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ldtkloader-build-Debug-3830f338d78e17e85afc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "build/_deps/ldtkloader-src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/box2d-build",
+					"childIndexes" : 
+					[
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.box2d-build-Debug-c07b55b84b1a07038c06.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "build/_deps/box2d-src"
+				},
+				{
+					"build" : "_deps/box2d-build/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.box2d-build.src-Debug-bb868496b0d93bd43ea9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 5,
+					"source" : "build/_deps/box2d-src/src",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						69
+					],
+					"build" : "_deps/fmt-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.fmt-build-Debug-de821917716c1cb4937d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "build/_deps/fmt-src",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						10,
+						71
+					],
+					"build" : "_deps/spdlog-build",
+					"jsonFile" : "directory-_deps.spdlog-build-Debug-cd5f41391fd94b00e3ce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "build/_deps/spdlog-src",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "include/tenshiUtil",
+					"jsonFile" : "directory-include.tenshiUtil-Debug-b9c3d1f1bf0b3a5e46fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include/tenshiUtil"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						2
+					],
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						11
+					],
+					"name" : "Verdantia",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "raylib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						7
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						9,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68
+					],
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						8
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						70
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "raygui",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "LDtkLoader",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8
+					],
+					"name" : "box2d",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						69
+					],
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "FMT",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						10,
+						71
+					],
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "LDtkLoader::@7362762648351013fe60",
+					"jsonFile" : "target-LDtkLoader-Debug-caa423279a250bf1e538.json",
+					"name" : "LDtkLoader",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Verdantia::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Verdantia-Debug-1774eaac68a9d28ea9c6.json",
+					"name" : "Verdantia",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "box2d::@20f5237e34ad7ded9806",
+					"jsonFile" : "target-box2d-Debug-479fb76fbf785f40ea49.json",
+					"name" : "box2d",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "fmt::@976f4f0bee90b99ecdb6",
+					"jsonFile" : "target-fmt-Debug-5f7131ed8f651a7be130.json",
+					"name" : "fmt",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-glfw-Debug-37486daef39d1f39271d.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "raylib::@4dc3a4644cf4ded08c01",
+					"jsonFile" : "target-raylib-Debug-be567c186435c66518f4.json",
+					"name" : "raylib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "spdlog::@eb35cfce7893ccfeff1e",
+					"jsonFile" : "target-spdlog-Debug-6c91c95160b71c6b8f51.json",
+					"name" : "spdlog",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@1f4ba659214c9866b353",
+					"jsonFile" : "target-uninstall-Debug-9b89ad5eccec27d466db.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "update_mappings::@9de86fbe87260ae8e66c",
+					"jsonFile" : "target-update_mappings-Debug-585cd47cc1a4536ed70f.json",
+					"name" : "update_mappings",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/leon/Schreibtisch/Dev/Games/Verdantia/build",
+		"source" : "/home/leon/Schreibtisch/Dev/Games/Verdantia"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	}
+}

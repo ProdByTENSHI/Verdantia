@@ -1,0 +1,3 @@
+/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate.dir
+/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-subbuild/CMakeFiles/edit_cache.dir
+/home/leon/Schreibtisch/Dev/Games/Verdantia/build/_deps/spdlog-subbuild/CMakeFiles/rebuild_cache.dir
