@@ -9,32 +9,39 @@
 #include <string>
 #include "world/Island.hpp"
 
-class WorldGenerator {
+class WorldGenerator
+{
 public:
 #pragma region Ctor
-    WorldGenerator() : m_GenerationSeed(4293184603) {
+    WorldGenerator() : m_GenerationSeed(4293184603)
+    {
         m_NoiseGen.SetNoiseType(FastNoiseLite::NoiseType_Perlin);
         m_NoiseGen.SetSeed(1337);
+        m_NoiseGen.SetFrequency(1.0f);
     }
 
-    WorldGenerator(u32 seed) : m_GenerationSeed(seed) {
+    WorldGenerator(u32 seed) : m_GenerationSeed(seed)
+    {
         m_NoiseGen.SetNoiseType(FastNoiseLite::NoiseType_Perlin);
         m_NoiseGen.SetSeed(m_GenerationSeed);
+        m_NoiseGen.SetFrequency(1.0f);
     }
 
-    ~WorldGenerator() {
+    ~WorldGenerator()
+    {
     }
 #pragma endregion Ctor
 
 #pragma region Noise Helper Functions
-    void SetSeed(i32 seed) {
+    void SetSeed(i32 seed)
+    {
         m_NoiseGen.SetSeed(seed);
         m_GenerationSeed = seed;
     }
 
-    void GenerateNoiseMap(f64 **noiseMap, u32 w, u32 h, f32 frequency, f32 weight = 1.0f);
+    void GenerateNoiseMap(f64** noiseMap, u32 w, u32 h, f32 frequency, f32 weight = 1.0f);
 
-    Texture2D NoiseToTexture(f64 **noiseMap, u32 w, u32 h);
+    Texture2D NoiseToTexture(f64** noiseMap, u32 w, u32 h);
 
     // Returns the Tile Type by the Noise Value
     TileType NoiseToTileType(f32 noise);
@@ -49,11 +56,11 @@ public:
 
 #pragma region Island
     // pos = Position of the Islands Center Tile
-    Island *GenerateIsland(Vector2Int size, Vector2 pos);
+    Island* GenerateIsland(Vector2Int size, Vector2 pos);
 
-    bool IsLand(Tile **tiles, i32 x, i32 y, Vector2Int size) const;
+    bool IsLand(Tile** tiles, i32 x, i32 y, Vector2Int size) const;
 
-    u8 CalculateEdgeMask(Tile **tiles, u32 x, u32 y, Vector2Int size) const;
+    u8 CalculateEdgeMask(Tile** tiles, u32 x, u32 y, Vector2Int size) const;
 
     Vector2Int GetSpriteFromTileMask(u8 mask) const;
 

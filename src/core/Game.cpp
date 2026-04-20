@@ -12,8 +12,8 @@ Island* island = nullptr;
 
 void GenerateIsland()
 {
-    g_WorldGenerator->SetSeed(Random::GetInt(-25255, 35834));
-    island = g_WorldGenerator->GenerateIsland({64, 64}, {15, 15});
+    g_WorldGenerator->SetSeed(Random::GetInt(42, 1337));
+    island = g_WorldGenerator->GenerateIsland({24, 24}, {15.0f, 15.0f});
 }
 
 Game::Game()
@@ -38,6 +38,10 @@ Game::Game()
     // ========
 
     m_Player = g_EntityManager->CreateEntity<Player>();
+    m_Player->m_Position = {
+        (island->m_Size.x * 16.0f) * 0.5f + island->m_Position.x,
+        (island->m_Size.y * 16.0f) * 0.5f + island->m_Position.y
+    };
 
     m_IsRunning = true;
 }

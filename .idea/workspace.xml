@@ -37,24 +37,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29f53bdf-45f0-4fdc-8eb9-7d91f8600a40" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/AssetsManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/AssetsManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Mushrooms, Flowers, Stones.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Trees, stumps and bushes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/entities/Tree.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/entities/Tree.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/memory/RscManager.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/memory/RscManager.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/player/Player.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/player/Player.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/render/MasterRenderer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/render/MasterRenderer.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/tenshiUtil/math/Vector2Int.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/tenshiUtil/math/Vector2Int.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/world/Island.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/world/Island.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/world/Tile.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/world/Tile.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/world/WorldGenerator.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/world/WorldGenerator.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Tree.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Player.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/render/MasterRenderer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/render/MasterRenderer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/render/VerdantiaCamera.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/render/VerdantiaCamera.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/Island.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/Island.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/world/WorldGenerator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/WorldGenerator.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -274,7 +262,7 @@
       <workItem from="1776443293818" duration="13658000" />
       <workItem from="1776538501449" duration="18509000" />
       <workItem from="1776595937399" duration="22335000" />
-      <workItem from="1776695447400" duration="9248000" />
+      <workItem from="1776695447400" duration="15973000" />
     </task>
     <servers />
   </component>
@@ -292,16 +280,15 @@
       <breakpoints>
         <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/player/Player.cpp</url>
-          <line>100</line>
+          <line>98</line>
           <properties>
             <option name="hitCountValue" value="1" />
           </properties>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/world/Island.cpp</url>
-          <line>68</line>
-          <option name="timeStamp" value="11" />
+          <url>file://$PROJECT_DIR$/include/tenshiUtil/math/PerlinNoise.hpp</url>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

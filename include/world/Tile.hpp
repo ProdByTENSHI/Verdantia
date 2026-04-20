@@ -21,6 +21,7 @@ constexpr u8 TOP = 1;
 constexpr u8 RIGHT = 2;
 constexpr u8 BOTTOM = 4;
 constexpr u8 LEFT = 8;
+constexpr u8 CENTER = TOP | BOTTOM | LEFT | RIGHT;
 
 // Tile Values
 // 0.0 - 0.5 = Water

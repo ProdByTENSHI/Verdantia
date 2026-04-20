@@ -26,11 +26,12 @@ public:
 
     RenderTile& GetRenderTile(Vector2Int tile);
 
+    const Vector2Int m_Size = {0, 0};
+    const Vector2 m_Position = {0, 0};
+
 private:
     Tile** m_Tiles;
     RenderTile** m_RenderTiles;
-    Vector2Int m_Size = {0, 0};
-    Vector2 m_Position = {0, 0};
 
     // Holds Static Entities like Trees, Stones, etc
     std::unordered_map<Vector2Int, Entity*> m_StaticEntities;

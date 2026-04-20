@@ -24,8 +24,6 @@ Player::Player(u32 id, const std::string& name) : Entity(id, "Player")
     OnRender += RenderHandler;
 
     m_RenderLayer = RenderLayer::Entities;
-
-    m_Position = {32.0f * 16.0f, 32.0f * 16.0f};
 }
 
 Player::~Player()

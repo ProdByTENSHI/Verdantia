@@ -109,17 +109,31 @@ Island* WorldGenerator::GenerateIsland(Vector2Int size, Vector2 pos)
         {
             Tile _tile;
 
-            f32 _noise = m_NoiseGen.GetNoise(x * _scale, y * _scale);
+            f32 _noise = 0.0f;
+            f32 _freq = _scale;
+            f32 _amp = 1.0f;
+
+            f32 _nx = (f32)x / size.x;
+            f32 _ny = (f32)y / size.y;
+
+            for (i32 i = 0; i < 3; i++)
+            {
+                _noise += m_NoiseGen.GetNoise(_nx * _freq, _ny * _freq) * _amp;
+
+                _amp *= 0.5f;
+                _freq *= 2.0f;
+            }
 
             // Radial Falloff
             f32 _dx = (x - size.x * 0.5f) / (size.x * 0.5f);
             f32 _dy = (y - size.y * 0.5f) / (size.y * 0.5f);
-            f32 _dist = sqrt(_dx * _dx + _dy * _dy);
+            f32 _dist = std::min((f32)sqrt(_dx * _dx + _dy * _dy), 1.0f);
+            f32 _fallOff = pow(_dist, 3.4f);
 
             _dist *= 0.8f;
             _noise *= 2.34f;
 
-            f32 _tileVal = _noise - _dist + 0.7f;
+            f32 _tileVal = _noise - _fallOff + 0.7f;
 
             _tile.m_Type = NoiseToTileType(_tileVal);
 
@@ -157,29 +171,60 @@ Island* WorldGenerator::GenerateIsland(Vector2Int size, Vector2 pos)
 
     // Third Pass: Generate Trees and Stones
     std::unordered_map<Vector2Int, Entity*> staticEntities;
-    _scale = 0.35f;
+    _scale = 1.75f;
+    f32 _density = 0.15f;
 
     u32 _treeCounter = 0;
+    f32 _max = 0.0f;
+    f32 _min = 1.0f;
     for (i32 x = 0; x < size.x; x++)
     {
         for (i32 y = 0; y < size.y; y++)
         {
-            if (!IsLand(tiles, x, y, size))
+            if (!IsLand(tiles, x, y, size) || (tiles[x][y].m_NeighbourMask & CENTER) == CENTER)
             {
                 continue;
             }
 
-            f32 _noise = m_NoiseGen.GetNoise(x * _scale, y * _scale) + 0.7f;
-            spdlog::info("Noise at {} {} -> {}", x, y, _scale);
-            if (_noise < 0.54f)
+            f32 _noise = 0.0f;
+            f32 _amp = 1.0f;
+            f32 _freq = _scale;
+            f32 _maxVal = 0.0f;
+
+            f32 _nx = (f32)x * 0.1f;
+            f32 _ny = (f32)y * 0.1f;
+            for (i32 i = 0; i < 4; i++)
+            {
+                _noise += m_NoiseGen.GetNoise(_nx * _freq, _ny * _freq) * _amp;
+
+                _maxVal += _amp;
+                spdlog::info("Noise at it {} -> {}", x + y, _noise);
+
+                _amp *= 0.5f;
+                _freq *= 2.0f;
+            }
+
+            _noise /= _maxVal;
+            _noise = (_noise + 1) * 0.5f;
+            _noise = pow(_noise, 2.5f);
+
+
+            if (_noise > _max)
+                _max = _noise;
+            else if (_noise < _min)
+                _min = _noise;
+
+            if (_noise < _density)
             {
                 Tree* tree = g_EntityManager->CreateEntity<Tree>("Tree", TreeType::Plain);
-                tree->m_Position = {(f32)x, (f32)y};
+                tree->m_Position = {(f32)x + (pos.x * TILE_SIZE * 0.5f), (f32)y + (pos.y * TILE_SIZE * 0.5f)};
                 staticEntities.insert({{x, y}, tree});
                 ++_treeCounter;
             }
         }
     }
+
+    spdlog::info("Min {} : Max {} -> Range {}", _min, _max, _max - _min);
 
     spdlog::info("Generated {} Trees", _treeCounter);
 
@@ -253,7 +298,7 @@ Vector2Int WorldGenerator::GetSpriteFromTileMask(u8 mask) const
         return RIGHT_EDGE_INDEX;
 
     // CENTER
-    case TOP | BOTTOM | LEFT | RIGHT:
+    case CENTER:
         if (Random::GetInt(0, 5) <= 4)
             return {1, 1};
         else
