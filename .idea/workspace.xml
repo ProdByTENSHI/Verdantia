@@ -37,12 +37,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29f53bdf-45f0-4fdc-8eb9-7d91f8600a40" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphics/Animation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphics/Animation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/AssetsManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/AssetsManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Mushrooms, Flowers, Stones.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sprites/Objects/Trees, stumps and bushes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/entities/Tree.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/entities/Tree.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/memory/RscManager.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/memory/RscManager.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/player/Player.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/player/Player.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/render/MasterRenderer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/render/MasterRenderer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/tenshiUtil/math/Vector2Int.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/tenshiUtil/math/Vector2Int.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/world/Island.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/world/Island.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/world/Tile.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/world/Tile.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Tree.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/render/MasterRenderer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/render/MasterRenderer.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/render/VerdantiaCamera.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/render/VerdantiaCamera.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/Island.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/Island.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/WorldGenerator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/WorldGenerator.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +75,60 @@
   </component>
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="true" />
+    <option name="myAllFileTypesSelected" value="false" />
+    <option name="mySelectedFileTypes">
+      <set>
+        <option value="Angular2Html" />
+        <option value="C/C++" />
+        <option value="C/C++ Header" />
+        <option value="CMakeLists.txt" />
+        <option value="CSS" />
+        <option value="CassandraQL" />
+        <option value="ChildProcessDebugging" />
+        <option value="DTD" />
+        <option value="DTS" />
+        <option value="Flow" />
+        <option value="HTML" />
+        <option value="HTTP Request" />
+        <option value="HiveQL" />
+        <option value="Ini" />
+        <option value="JSHint" />
+        <option value="JSX" />
+        <option value="JavaScript" />
+        <option value="Less" />
+        <option value="Makefile" />
+        <option value="Markdown" />
+        <option value="Natjmc" />
+        <option value="Natstepfilter" />
+        <option value="Natvis" />
+        <option value="PostCSS" />
+        <option value="Python" />
+        <option value="PythonStub" />
+        <option value="QmlType" />
+        <option value="Qt UI file" />
+        <option value="RNG Compact" />
+        <option value="Redis" />
+        <option value="Rust" />
+        <option value="SARIF" />
+        <option value="SCSS" />
+        <option value="SQL" />
+        <option value="SVG" />
+        <option value="Sass" />
+        <option value="Shell Script" />
+        <option value="SourceMap" />
+        <option value="TOML" />
+        <option value="TypeScript" />
+        <option value="TypeScript JSX" />
+        <option value="Vue.js" />
+        <option value="XHTML" />
+        <option value="XML" />
+        <option value="YAML" />
+        <option value="meson.build" />
+        <option value="platformio" />
+        <option value="qrc" />
+        <option value="tsconfig" />
+      </set>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -135,17 +202,17 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.Verdantia">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LDtkLoader" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Verdantia" TARGET_NAME="LDtkLoader" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="Verdantia" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Verdantia" TARGET_NAME="Verdantia" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Verdantia" RUN_TARGET_NAME="Verdantia">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -206,7 +273,8 @@
       <updated>1776443292066</updated>
       <workItem from="1776443293818" duration="13658000" />
       <workItem from="1776538501449" duration="18509000" />
-      <workItem from="1776595937399" duration="8917000" />
+      <workItem from="1776595937399" duration="22335000" />
+      <workItem from="1776695447400" duration="9248000" />
     </task>
     <servers />
   </component>
@@ -224,11 +292,16 @@
       <breakpoints>
         <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/player/Player.cpp</url>
-          <line>68</line>
+          <line>100</line>
           <properties>
             <option name="hitCountValue" value="1" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/world/Island.cpp</url>
+          <line>68</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

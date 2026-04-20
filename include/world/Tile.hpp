@@ -25,26 +25,31 @@ constexpr u8 LEFT = 8;
 // Tile Values
 // 0.0 - 0.5 = Water
 // 0.51 - 1.0 = Land
-enum class TileType : u8 {
+enum class TileType : u8
+{
     Water = 0,
     Land = 1
 };
 
-struct Tile {
+struct Tile
+{
     bool m_IsOccupied = false;
 
     u8 m_NeighbourMask = 0;
 
     TileType m_Type = TileType::Land;
-    Vector2Int m_SpriteSheetIndex = 5;
+    u32 m_SpriteSheetIndex = 0;
+    Vector2Int m_TileIndex = {0, 0};
 
-    static const char *TileTypeToString(TileType type) {
-        switch (type) {
-            case TileType::Water:
-                return "Water";
+    static const char* TileTypeToString(TileType type)
+    {
+        switch (type)
+        {
+        case TileType::Water:
+            return "Water";
 
-            case TileType::Land:
-                return "Land";
+        case TileType::Land:
+            return "Land";
         }
 
         return "none";
@@ -52,6 +57,8 @@ struct Tile {
 };
 
 // Stores only relevant Information needed for rendering a Tile
-struct RenderTile {
+struct RenderTile
+{
+    u32 m_SpriteSheetIndex = 0;
     Rectangle m_SourceRect = {0, 0, 0, 0};
 };

@@ -7,6 +7,14 @@
     {
       "id": "Grass_Tiles",
       "path": "assets/sprites/Tilesets/ground/Grass_Tiles.png"
+    },
+    {
+      "id": "Water_Tiles",
+      "path": "assets/sprites/Tilesets/ground/Water.png"
+    },
+    {
+      "id": "Tree_Base",
+      "path": "assets/sprites/Objects/Tree/tree_sprites.png"
     }
   ],
   "sprite_sheets": [
@@ -22,7 +30,21 @@
       "texture": "Grass_Tiles",
       "frame_width": 16,
       "frame_height": 16,
+      "grid": [4,1]
+    },
+    {
+      "id": "Water_Tiles",
+      "texture": "Water_Tiles",
+      "frame_width": 16,
+      "frame_height": 16,
       "grid": [11,7]
+    },
+    {
+      "id": "Tree_Base",
+      "texture": "Tree_Base",
+      "frame_width": 48,
+      "frame_height": 48,
+      "grid": [5, 12]
     }
   ],
   "sprites": [
@@ -52,6 +74,30 @@
       "sprite_sheet": "Player",
       "interval": 0.15,
       "frames": [[0,3],[1,3],[2,3],[3,3],[4,3],[5,3],[6,3],[7,3]]
+    },
+    {
+      "id": "Player_Walk_Down",
+      "sprite_sheet": "Player",
+      "interval": 0.15,
+      "frames": [[0,4],[1,4],[2,4],[3,4],[4,4],[5,4],[6,4],[7,4]]
+    },
+    {
+      "id": "Player_Walk_Up",
+      "sprite_sheet": "Player",
+      "interval": 0.15,
+      "frames": [[0,5],[1,5],[2,5],[3,5],[4,5],[5,5],[6,5],[7,5]]
+    },
+    {
+      "id": "Player_Walk_Right",
+      "sprite_sheet": "Player",
+      "interval": 0.15,
+      "frames": [[0,6],[1,6],[2,6],[3,6],[4,6],[5,6],[6,6],[7,6]]
+    },
+    {
+      "id": "Player_Walk_Left",
+      "sprite_sheet": "Player",
+      "interval": 0.15,
+      "frames": [[0,7],[1,7],[2,7],[3,7],[4,7],[5,7],[6,7],[7,7]]
     }
   ],
   "sounds": [

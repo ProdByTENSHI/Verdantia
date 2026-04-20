@@ -5,7 +5,7 @@
 
 enum class TreeType
 {
-    Plain,  // Holds no Fruits but gives more Wood
+    Plain, // Holds no Fruits but gives more Wood
     Apple,
     Peach,
     Pear,
@@ -16,14 +16,14 @@ class Tree : public virtual Entity
 {
 public:
     Tree(u32 id, const std::string& name = "",
-        TreeType type = TreeType::Plain);
+         TreeType type = TreeType::Plain);
     ~Tree();
 
-    virtual void Update();
+    virtual void Update() override;
 
-    virtual RenderCommand CreateRenderCommand();
+    virtual RenderCommand CreateRenderCommand() override;
 
-    virtual void Render();
+    virtual void Render() override;
 
     TreeType GetType() const { return m_TreeType; }
 

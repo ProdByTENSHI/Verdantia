@@ -5,7 +5,7 @@
 VerdantiaCamera::VerdantiaCamera()
 {
     m_Camera.offset = {g_WindowWidth * 0.5f - 48.0f, g_WindowHeight * 0.5f - 48.0f};
-    m_Camera.zoom = 4.0f;
+    m_Camera.zoom = 2.0f;
     m_Camera.rotation = 0.0f;
 }
 

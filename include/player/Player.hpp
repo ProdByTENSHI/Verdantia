@@ -6,6 +6,7 @@
 #include "math/Vector2Int.hpp"
 #include "graphics/Animation.hpp"
 #include "player/PlayerIdleState.hpp"
+#include "player/PlayerWalkState.hpp"
 
 
 class Player : virtual public Entity
@@ -26,7 +27,7 @@ public:
     void SetState(PlayerStates state);
 
 private:
-    f32 m_WalkingSpeed = 35.0f;
+    f32 m_WalkingSpeed = 25.0f;
     f32 m_RunningSpeed = m_WalkingSpeed * 1.75;
     f32 m_TimeBetweenActions = 0.6f;
 
@@ -36,6 +37,7 @@ private:
 
     PlayerState* m_CurrentState = nullptr;
     PlayerIdleState* m_IdleState = nullptr;
+    PlayerWalkState* m_WalkState = nullptr;
 
     Animation* m_CurrentAnimation = nullptr;
 

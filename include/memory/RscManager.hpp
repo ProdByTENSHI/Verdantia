@@ -46,10 +46,14 @@ namespace Textures
 {
     inline u32 Player;
     inline u32 GrassTiles;
+    inline u32 WaterTiles;
+    inline u32 TreeBase;
 
     inline AssetBinding textureBinding[] = {
         {"Player", &Textures::Player},
-        {"Grass_Tiles", &Textures::GrassTiles}
+        {"Grass_Tiles", &Textures::GrassTiles},
+        {"Water_Tiles", &Textures::WaterTiles},
+        {"Tree_Base", &Textures::TreeBase}
     };
 }
 
@@ -57,10 +61,14 @@ namespace SpriteSheets
 {
     inline u32 Player;
     inline u32 GrassTiles;
+    inline u32 WaterTiles;
+    inline u32 TreeBase;
 
     inline AssetBinding spriteSheetBinding[] = {
         {"Player", &SpriteSheets::Player},
-        {"Grass_Tiles", &SpriteSheets::GrassTiles}
+        {"Grass_Tiles", &SpriteSheets::GrassTiles},
+        {"Water_Tiles", &SpriteSheets::WaterTiles},
+        {"Tree_Base", &SpriteSheets::TreeBase}
     };
 }
 
@@ -71,11 +79,21 @@ namespace Animations
     inline u32 PlayerIdleRight;
     inline u32 PlayerIdleLeft;
 
+    inline u32 PlayerWalkDown;
+    inline u32 PlayerWalkUp;
+    inline u32 PlayerWalkRight;
+    inline u32 PlayerWalkLeft;
+
     inline AssetBinding animBinding[] = {
         {"Player_Idle_Down", &Animations::PlayerIdleDown},
         {"Player_Idle_Up", &Animations::PlayerIdleUp},
         {"Player_Idle_Right", &Animations::PlayerIdleRight},
-        {"Player_Idle_Left", &Animations::PlayerIdleLeft}
+        {"Player_Idle_Left", &Animations::PlayerIdleLeft},
+
+        {"Player_Walk_Down", &Animations::PlayerWalkDown},
+        {"Player_Walk_Up", &Animations::PlayerWalkUp},
+        {"Player_Walk_Right", &Animations::PlayerWalkRight},
+        {"Player_Walk_Left", &Animations::PlayerWalkLeft}
     };
 }
 

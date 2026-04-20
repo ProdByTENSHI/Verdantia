@@ -18,6 +18,11 @@ void Tree::Update()
 RenderCommand Tree::CreateRenderCommand()
 {
     RenderCommand _cmd;
+
+    _cmd.m_Position = m_Position;
+    _cmd.m_TextureId = Textures::TreeBase;
+    _cmd.m_SrcRect = {0, 0, 48, 48};
+
     return _cmd;
 }
 

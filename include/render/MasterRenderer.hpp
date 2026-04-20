@@ -8,7 +8,8 @@
 #include <vector>
 #include <unordered_map>
 
-class MasterRenderer {
+class MasterRenderer
+{
 public:
     MasterRenderer();
 
@@ -21,10 +22,13 @@ public:
 private:
     void StageRenderCmdBuffers();
     void RenderDrawCommandBuffer(const std::vector<RenderCommand>& buffer) const;
+    void DrawWater();
 
-    std::vector<RenderCommand> &GetCommandBufferByLayer(RenderLayer layer);
+    std::vector<RenderCommand>& GetCommandBufferByLayer(RenderLayer layer);
 
 private:
     std::vector<RenderCommand> m_GroundRenderCommands;
     std::vector<RenderCommand> m_EntityRenderCommands;
+
+    Texture2D m_WaterTexture;
 };

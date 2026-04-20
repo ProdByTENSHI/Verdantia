@@ -8,14 +8,16 @@
 #include "tenshiUtil/math/Random.h"
 #include "globals/Events.hpp"
 
-Island *island = nullptr;
+Island* island = nullptr;
 
-void GenerateIsland() {
+void GenerateIsland()
+{
     g_WorldGenerator->SetSeed(Random::GetInt(-25255, 35834));
-    island = g_WorldGenerator->GenerateIsland({32, 32}, {15, 15});
+    island = g_WorldGenerator->GenerateIsland({64, 64}, {15, 15});
 }
 
-Game::Game() {
+Game::Game()
+{
     InitWindow(g_WindowWidth, g_WindowHeight, "Verdantia");
     SetTargetFPS(60);
 
@@ -40,19 +42,25 @@ Game::Game() {
     m_IsRunning = true;
 }
 
-Game::~Game() {
+Game::~Game()
+{
     CloseWindow();
 
     spdlog::info("Closed Game");
 }
 
-void Game::Update() {
-    while (m_IsRunning) {
+void Game::Update()
+{
+    while (m_IsRunning)
+    {
         // -- Animation Tick
-        if (m_TimeSinceLastAnimTick >= TIME_BETWEEN_ANIM_TICKS) {
+        if (m_TimeSinceLastAnimTick >= TIME_BETWEEN_ANIM_TICKS)
+        {
             m_TimeSinceLastAnimTick = 0.0f;
             OnAnimTick.Dispatch();
-        } else {
+        }
+        else
+        {
             m_TimeSinceLastAnimTick += GetFrameTime();
         }
 
@@ -66,12 +74,14 @@ void Game::Update() {
 
         g_EntityManager->AfterEntitiesFinished();
 
-        if (WindowShouldClose()) {
+        if (WindowShouldClose())
+        {
             m_IsRunning = false;
         }
     }
 }
 
-void Game::Render() {
+void Game::Render()
+{
     g_MasterRenderer->Render();
 }

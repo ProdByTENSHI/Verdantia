@@ -7,6 +7,7 @@ Player::Player(u32 id, const std::string& name) : Entity(id, "Player")
 {
     // -- Init States
     m_IdleState = new PlayerIdleState();
+    m_WalkState = new PlayerWalkState();
 
     SetState(PlayerStates::Idle);
 
@@ -23,6 +24,8 @@ Player::Player(u32 id, const std::string& name) : Entity(id, "Player")
     OnRender += RenderHandler;
 
     m_RenderLayer = RenderLayer::Entities;
+
+    m_Position = {32.0f * 16.0f, 32.0f * 16.0f};
 }
 
 Player::~Player()
@@ -33,24 +36,53 @@ Player::~Player()
 
 void Player::Update()
 {
-    if (IsKeyPressed(KEY_W))
+    if (IsKeyDown(KEY_W))
     {
         SetFacingDirection(UP_DIR);
+        SetState(PlayerStates::Walking);
+        m_MovementVector = Vector2(0.0f, -1.0f);
     }
-    else if (IsKeyPressed(KEY_S))
+    else if (IsKeyDown(KEY_S))
     {
         SetFacingDirection(DOWN_DIR);
+        SetState(PlayerStates::Walking);
+        m_MovementVector = Vector2(0.0f, +1.0f);
     }
-    else if (IsKeyPressed(KEY_D))
+    else if (IsKeyDown(KEY_D))
     {
         SetFacingDirection(RIGHT_DIR);
+        SetState(PlayerStates::Walking);
+        m_MovementVector = Vector2(1.0f, 0.0f);
     }
-    else if (IsKeyPressed(KEY_A))
+    else if (IsKeyDown(KEY_A))
     {
         SetFacingDirection(LEFT_DIR);
+        SetState(PlayerStates::Walking);
+        m_MovementVector = Vector2(-1.0f, 0.0f);
     }
 
-    m_Position += m_MovementVector * GetFrameTime();
+    if (IsKeyReleased(KEY_W))
+    {
+        SetState(PlayerStates::Idle);
+        m_MovementVector = Vector2(0.0f, 0.0f);
+    }
+    else if (IsKeyReleased(KEY_S))
+    {
+        SetState(PlayerStates::Idle);
+        m_MovementVector = Vector2(0.0f, 0.0f);
+    }
+    else if (IsKeyReleased(KEY_D))
+    {
+        SetState(PlayerStates::Idle);
+        m_MovementVector = Vector2(0.0f, 0.0f);
+    }
+    else if (IsKeyReleased(KEY_A))
+    {
+        SetState(PlayerStates::Idle);
+        m_MovementVector = Vector2(0.0f, 0.0f);
+    }
+
+    m_Position += m_MovementVector * GetFrameTime() * m_WalkingSpeed;
 
     m_CurrentAnimation->Update();
 }
@@ -89,6 +121,10 @@ void Player::SetState(PlayerStates state)
     {
     case PlayerStates::Idle:
         m_CurrentState = m_IdleState;
+        break;
+
+    case PlayerStates::Walking:
+        m_CurrentState = m_WalkState;
         break;
     }
 

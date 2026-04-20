@@ -4,6 +4,7 @@
 
 MasterRenderer::MasterRenderer()
 {
+    m_WaterTexture = *g_RscManager->GetTexture(Textures::WaterTiles);
 }
 
 MasterRenderer::~MasterRenderer()
@@ -18,6 +19,7 @@ void MasterRenderer::Render()
 
     StageRenderCmdBuffers();
 
+    DrawWater();
     RenderDrawCommandBuffer(m_GroundRenderCommands);
     RenderDrawCommandBuffer(m_EntityRenderCommands);
 
@@ -76,5 +78,23 @@ void MasterRenderer::RenderDrawCommandBuffer(const std::vector<RenderCommand>& b
         }
 
         DrawTextureRec(_texture, _cmd.m_SrcRect, _cmd.m_Position, WHITE);
+    }
+}
+
+void MasterRenderer::DrawWater()
+{
+    u32 _width = g_WindowWidth / TILE_SIZE;
+    u32 _height = g_WindowHeight / TILE_SIZE;
+
+    for (i32 x = 0; x < _width; x++)
+    {
+        for (i32 y = 0; y < _height; y++)
+        {
+            DrawTextureRec(m_WaterTexture, {0.0f, 0.0f, 16.0f, 16.0f},
+                           {
+                               (x * (f32)TILE_SIZE),
+                               (y * (f32)TILE_SIZE),
+                           }, WHITE);
+        }
     }
 }
