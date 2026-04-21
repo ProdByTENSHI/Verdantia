@@ -12,6 +12,8 @@ enum class TreeType
     Orange
 };
 
+constexpr u32 MIN_DIST_TO_NEXT_TREE = 2;
+
 class Tree : public virtual Entity
 {
 public:

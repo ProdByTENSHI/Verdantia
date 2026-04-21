@@ -7,16 +7,17 @@
 
 #include <unordered_map>
 #include <string>
+#include <algorithm>
 #include "world/Island.hpp"
 
 class WorldGenerator
 {
 public:
 #pragma region Ctor
-    WorldGenerator() : m_GenerationSeed(4293184603)
+    WorldGenerator() : m_GenerationSeed(1337)
     {
         m_NoiseGen.SetNoiseType(FastNoiseLite::NoiseType_Perlin);
-        m_NoiseGen.SetSeed(1337);
+        m_NoiseGen.SetSeed(m_GenerationSeed);
         m_NoiseGen.SetFrequency(1.0f);
     }
 
@@ -63,6 +64,9 @@ public:
     u8 CalculateEdgeMask(Tile** tiles, u32 x, u32 y, Vector2Int size) const;
 
     Vector2Int GetSpriteFromTileMask(u8 mask) const;
+
+    bool IsStaticEntityInRadius(Vector2Int pos, u32 radius,
+                                const std::unordered_map<Vector2Int, Entity*>& entities) const;
 
     static std::string MaskToStr(u8 mask);
 #pragma endregion Island

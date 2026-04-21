@@ -99,7 +99,7 @@ Island* WorldGenerator::GenerateIsland(Vector2Int size, Vector2 pos)
     Island* island = nullptr;
     Tile** tiles = new Tile*[size.x];
 
-    f32 _scale = 0.045f;
+    f32 _scale = 0.025f;
 
     // First Pass: Terrain Gen
     for (i32 x = 0; x < size.x; x++)
@@ -170,8 +170,9 @@ Island* WorldGenerator::GenerateIsland(Vector2Int size, Vector2 pos)
     }
 
     // Third Pass: Generate Trees and Stones
-    std::unordered_map<Vector2Int, Entity*> staticEntities;
-    _scale = 1.75f;
+    std::unordered_map<Vector2Int, Entity*> _staticEntities;
+
+    _scale = 0.45f;
     f32 _density = 0.15f;
 
     u32 _treeCounter = 0;
@@ -191,14 +192,14 @@ Island* WorldGenerator::GenerateIsland(Vector2Int size, Vector2 pos)
             f32 _freq = _scale;
             f32 _maxVal = 0.0f;
 
-            f32 _nx = (f32)x * 0.1f;
-            f32 _ny = (f32)y * 0.1f;
+            f32 _nx = (f32)(x * 0.1f) + Random::GetFloat(-0.4f, 0.4f);
+            f32 _ny = (f32)(y * 0.1f) + Random::GetFloat(-0.4f, 0.4f);
+
             for (i32 i = 0; i < 4; i++)
             {
                 _noise += m_NoiseGen.GetNoise(_nx * _freq, _ny * _freq) * _amp;
 
                 _maxVal += _amp;
-                spdlog::info("Noise at it {} -> {}", x + y, _noise);
 
                 _amp *= 0.5f;
                 _freq *= 2.0f;
@@ -214,24 +215,32 @@ Island* WorldGenerator::GenerateIsland(Vector2Int size, Vector2 pos)
             else if (_noise < _min)
                 _min = _noise;
 
-            if (_noise < _density)
+            f32 _rand = Random::GetFloat(0, 1);
+
+            if (_noise < _density && _rand < 0.5f)
             {
-                Tree* tree = g_EntityManager->CreateEntity<Tree>("Tree", TreeType::Plain);
-                tree->m_Position = {(f32)x + (pos.x * TILE_SIZE * 0.5f), (f32)y + (pos.y * TILE_SIZE * 0.5f)};
-                staticEntities.insert({{x, y}, tree});
-                ++_treeCounter;
+                if (!IsStaticEntityInRadius({x, y},
+                                            MIN_DIST_TO_NEXT_TREE, _staticEntities))
+                {
+                    Tree* tree = g_EntityManager->CreateEntity<Tree>("Tree", TreeType::Plain);
+                    tree->m_Position = {
+                        (f32)pos.x + (x * TILE_SIZE * 0.5f),
+                        (f32)pos.y + (y * TILE_SIZE * 0.5f)
+                    };
+                    spdlog::info("Generated Tree {} {} at {} {}", x, y, tree->m_Position.x, tree->m_Position.y);
+                    _staticEntities.insert({{x, y}, tree});
+                    ++_treeCounter;
+                }
             }
         }
     }
 
-    spdlog::info("Min {} : Max {} -> Range {}", _min, _max, _max - _min);
-
     spdlog::info("Generated {} Trees", _treeCounter);
 
     island = new Island(tiles, size, pos);
-    for (auto& e : staticEntities)
+    for (auto& entity : _staticEntities)
     {
-        island->AddStaticEntity(e.second, {(i32)e.first.x, (i32)e.first.y});
+        island->AddStaticEntity(entity.second, entity.first);
     }
 
     return island;
@@ -308,6 +317,26 @@ Vector2Int WorldGenerator::GetSpriteFromTileMask(u8 mask) const
     default:
         return {1, 1};
     }
+}
+
+bool WorldGenerator::IsStaticEntityInRadius(Vector2Int pos, u32 radius,
+                                            const std::unordered_map<Vector2Int, Entity*>& entities) const
+{
+    for (i32 x = -radius; x <= radius; x++)
+    {
+        for (i32 y = -radius; y <= radius; y++)
+        {
+            if (x == 0 && y == 0)
+                continue;
+            if (x * x + y * y > radius * radius)
+                continue;
+
+            if (entities.contains({x + pos.x, y + pos.y}) == true)
+                return true;
+        }
+    }
+
+    return false;
 }
 
 std::string WorldGenerator::MaskToStr(u8 mask)
